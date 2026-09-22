@@ -1,11 +1,11 @@
 {
-  "version": "v19-audio-selection",
-  "builtAt": "2026-09-22T16:11:26.417949+09:00",
-  "sourceCommit": "ebb719cc92f86742e34a2d99fd51fa1c1d0ec92c",
+  "version": "v21-responsive-home",
+  "builtAt": "2026-09-22T17:24:25.0288623+09:00",
+  "sourceCommit": "55de1d3bcef4e58a74b0c324da707d800c8e2b05",
   "relics": 92,
   "illustratedRelics": 92,
-  "pack": "game-v19.pck",
-  "packBytes": 79706908,
-  "packSha256": "ffef5e69aaae1a819487c6a01e98a13e5074cb246777189ee5dc72ee3862dc72",
+  "pack": "game-v21.pck",
+  "packBytes": 85196328,
+  "packSha256": "aa84b1db7ce8fa9e538ae19214fc52dc56e153bf16244854280087b1e5106f24",
   "engine": "4.7.1.stable.official"
 }
