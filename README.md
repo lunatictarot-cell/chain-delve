@@ -1,8 +1,9 @@
-# Chain Delve
+# 이번 생도 던전
 
-체인을 이어 적을 쓰러뜨리는 로그라이크.
+타일을 이어 던전을 탐험하고, 환생하며 새로운 선택을 여는 로그라이크.
+유물 92종을 모아 진열장을 채워 보세요. 몇몇 유물은 색다른 여정 속에 숨어 있습니다.
 
-**▶ 플레이: https://lunatictarot-cell.github.io/chain-delve/**
+**[▶ 플레이](https://lunatictarot-cell.github.io/chain-delve/)**
 
 브라우저에서 바로 실행됩니다 (데스크톱 Chrome/Edge/Firefox 권장, 로그인 불필요).
 
