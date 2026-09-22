@@ -1,11 +1,11 @@
 {
-  "version": "v18-complete-relic-art",
-  "builtAt": "2026-09-22T13:24:53.244734+09:00",
-  "sourceCommit": "7581679accd213244e974f8cea04e4703409cba8",
+  "version": "v19-audio-selection",
+  "builtAt": "2026-09-22T16:11:26.417949+09:00",
+  "sourceCommit": "ebb719cc92f86742e34a2d99fd51fa1c1d0ec92c",
   "relics": 92,
   "illustratedRelics": 92,
-  "pack": "game-v18.pck",
-  "packBytes": 79705532,
-  "packSha256": "4454bebb98f40666ba5d27b55849b0e90d6c46faa5a571883cc914445ade4a5b",
+  "pack": "game-v19.pck",
+  "packBytes": 79706908,
+  "packSha256": "ffef5e69aaae1a819487c6a01e98a13e5074cb246777189ee5dc72ee3862dc72",
   "engine": "4.7.1.stable.official"
 }
