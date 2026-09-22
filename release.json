@@ -1,13 +1,13 @@
 {
-  "version": "v23-transition-notices",
-  "builtAt": "2026-09-22T18:59:26.9875460+09:00",
-  "sourceCommit": "271ac8289116405d5ce80619dd42cda8f9c38824",
+  "version": "v24-menu-organization",
+  "builtAt": "2026-09-22T19:22:00.3549383+09:00",
+  "sourceCommit": "2b909dfe7022d56a22946165f5587a840a42d47c",
   "relics": 92,
   "illustratedRelics": 92,
   "storyMilestones": 7,
   "newComicPanels": 3,
-  "pack": "game-v23.pck",
-  "packBytes": 87780624,
-  "packSha256": "577997d02c58302e06edd591e71c5072d856256abc076977ddad38b91f940287",
+  "pack": "game-v24.pck",
+  "packBytes": 87784896,
+  "packSha256": "02cdc2ccbe0c9357751381f3c90cb19c0e665c1d9a63ebd14c4f94efddccfd81",
   "engine": "4.7.1.stable.official"
 }
