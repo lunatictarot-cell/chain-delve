@@ -1,7 +1,7 @@
 {
-  "version": "v28-crafted-menus-and-kill-preview",
-  "builtAt": "2026-10-07T17:55:57.325328+09:00",
-  "sourceCommit": "22ccd763495799045fe49c636e9fd02efd82c31b",
+  "version": "v29-visible-ascension-and-challenge-previews",
+  "builtAt": "2026-10-07T18:53:09.665940+09:00",
+  "sourceCommit": "fb64d554b3e1e2d67c14bff930c961aa9afdad24",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,8 +15,10 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v28.pck",
-  "packBytes": 104003608,
-  "packSha256": "834aa071538bc012908bb7e18cd5767f4ae9ae72c793171328b1c3c7e878f6f5",
-  "engine": "4.7.1.stable.official"
+  "pack": "game-v29.pck",
+  "packBytes": 104010948,
+  "packSha256": "05afe69faf133d183719773116c168e8404c8452ee9b6b3f4f2d4c362a5c01ef",
+  "engine": "4.7.1.stable.official",
+  "highestEarnedAscensionDefault": true,
+  "challengeComparisonCards": true
 }
