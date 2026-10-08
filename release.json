@@ -1,7 +1,7 @@
 {
-  "version": "v31-battle-feedback-and-defeat-recap",
-  "builtAt": "2026-10-08T10:25:41.531529+09:00",
-  "sourceCommit": "8f1181147f273b57567e6b0969a43d59a289cfc4",
+  "version": "v32-relic-codex-and-equipment-guide",
+  "builtAt": "2026-10-08T12:57:11.605759+09:00",
+  "sourceCommit": "fd7ddb3a4905175ff9a1d45833d9dfaec332d15e",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v31.pck",
-  "packBytes": 104023280,
-  "packSha256": "b6301899d74fa724682feea72f8c01ba2e15c1c4e9801d9ec07020490133e69f",
+  "pack": "game-v32.pck",
+  "packBytes": 104039688,
+  "packSha256": "c2b0a89ab607e988edc396ae85fce39cdaaf0bf4b98ee91b96dc720c270b5ff1",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": true,
@@ -27,5 +27,11 @@
   "sharedPeriodFirstClearBonus": true,
   "modeAwareRelicNotices": true,
   "currentExchangeForecast": true,
-  "defeatRecap": true
+  "defeatRecap": true,
+  "codexChapters": 3,
+  "awakeningForms": 12,
+  "homeEquipmentSnapshot": true,
+  "readOnlyEquipmentSnapshot": true,
+  "workshopArrivalCue": true,
+  "unknownEffectsHidden": true
 }
