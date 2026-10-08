@@ -1,7 +1,7 @@
 {
-  "version": "v34-tactical-preparation",
-  "builtAt": "2026-10-08T21:47:21.358860+09:00",
-  "sourceCommit": "620040babeb3374a04522326019af5ef6736afcd",
+  "version": "v35-class-identity",
+  "builtAt": "2026-10-09T00:27:26.787577+09:00",
+  "sourceCommit": "6ffb2d5b0becce32fffbb6a6513b68408154c524",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v34.pck",
-  "packBytes": 104075044,
-  "packSha256": "628eb403f8534923e9b8788cf7cf83c22f46b5c2b2f1b17d241796a2dc043064",
+  "pack": "game-v35.pck",
+  "packBytes": 104104804,
+  "packSha256": "d776fafbf019bf9fd113c1f55d08fa7562ac43bee9a6ab9c7750c4fb831bf961",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": true,
@@ -39,7 +39,17 @@
   "resultUnlockShortcut": true,
   "scrollFreeHome": true,
   "boardPreparationResonances": 2,
-  "classMasteryAlternatives": 6,
+  "classMasteryAlternatives": 12,
   "pinnedReadyNotification": true,
-  "starterReplacesDefault": true
+  "starterReplacesDefault": true,
+  "classMechanics": 6,
+  "classTrainingBranches": 12,
+  "classTrainingLevels": [
+    3,
+    6,
+    9
+  ],
+  "classTrainingNormalRunsOnly": true,
+  "classTalentForecast": true,
+  "classCompletionRecords": true
 }
