@@ -1,7 +1,7 @@
 {
-  "version": "v30-five-act-fixed-challenges",
-  "builtAt": "2026-10-07T20:56:59.731969+09:00",
-  "sourceCommit": "e765497b7b75520113dbb4695ab2e231e699acc0",
+  "version": "v31-battle-feedback-and-defeat-recap",
+  "builtAt": "2026-10-08T10:25:41.531529+09:00",
+  "sourceCommit": "8f1181147f273b57567e6b0969a43d59a289cfc4",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,14 +15,17 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v30.pck",
-  "packBytes": 104013060,
-  "packSha256": "0f1e9b0c1c25df2bb1e3246bcf056071c6e58660e9b222cc85d36066b4a4ed1f",
+  "pack": "game-v31.pck",
+  "packBytes": 104023280,
+  "packSha256": "b6301899d74fa724682feea72f8c01ba2e15c1c4e9801d9ec07020490133e69f",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": true,
   "fixedChallengeActs": 5,
   "legacyChallengeActs": 3,
   "versionedChallengeScores": true,
-  "sharedPeriodFirstClearBonus": true
+  "sharedPeriodFirstClearBonus": true,
+  "modeAwareRelicNotices": true,
+  "currentExchangeForecast": true,
+  "defeatRecap": true
 }
