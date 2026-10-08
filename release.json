@@ -1,7 +1,7 @@
 {
-  "version": "v35-class-identity",
-  "builtAt": "2026-10-09T00:27:26.787577+09:00",
-  "sourceCommit": "6ffb2d5b0becce32fffbb6a6513b68408154c524",
+  "version": "v36-combat-choices-and-echo",
+  "builtAt": "2026-10-09T01:14:15.844321+09:00",
+  "sourceCommit": "c76a9836dfd06797937393bd108addfecb4f594a",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v35.pck",
-  "packBytes": 104104804,
-  "packSha256": "d776fafbf019bf9fd113c1f55d08fa7562ac43bee9a6ab9c7750c4fb831bf961",
+  "pack": "game-v36.pck",
+  "packBytes": 104135660,
+  "packSha256": "5b47ebf47e8197937ec3a84ae34edba842b8530135b6d5842d89f89537d2b6f2",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": true,
@@ -51,5 +51,10 @@
   ],
   "classTrainingNormalRunsOnly": true,
   "classTalentForecast": true,
-  "classCompletionRecords": true
+  "classCompletionRecords": true,
+  "scheduledSpecialEnemyTypes": 2,
+  "currentBoardAwakeningComparison": true,
+  "postClearEchoTurns": 12,
+  "echoRewardsSeparated": true,
+  "echoRecordsByClassAndAscension": true
 }
