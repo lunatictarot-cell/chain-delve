@@ -1,7 +1,7 @@
 {
-  "version": "v32-relic-codex-and-equipment-guide",
-  "builtAt": "2026-10-08T12:57:11.605759+09:00",
-  "sourceCommit": "fd7ddb3a4905175ff9a1d45833d9dfaec332d15e",
+  "version": "v33-unlock-wishlist",
+  "builtAt": "2026-10-08T13:25:07.066931+09:00",
+  "sourceCommit": "1a6e6e9f6df707460a83fc7c81b5b496a2c024d9",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v32.pck",
-  "packBytes": 104039688,
-  "packSha256": "c2b0a89ab607e988edc396ae85fce39cdaaf0bf4b98ee91b96dc720c270b5ff1",
+  "pack": "game-v33.pck",
+  "packBytes": 104043504,
+  "packSha256": "989441f15b87d3f481a75f6273705ccdce872e301b3d84d0f6d3301c8a7ead18",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": true,
@@ -33,5 +33,9 @@
   "homeEquipmentSnapshot": true,
   "readOnlyEquipmentSnapshot": true,
   "workshopArrivalCue": true,
-  "unknownEffectsHidden": true
+  "unknownEffectsHidden": true,
+  "visiblePinnedUnlock": true,
+  "freeUnpin": true,
+  "resultUnlockShortcut": true,
+  "scrollFreeHome": true
 }
