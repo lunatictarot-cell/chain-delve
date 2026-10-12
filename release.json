@@ -1,7 +1,7 @@
 {
-  "version": "v37-results-and-menu-guides",
-  "builtAt": "2026-10-12T10:41:26.675561+09:00",
-  "sourceCommit": "5a0995e5cf83741eeed40df27d869b05595d9c3d",
+  "version": "v38-game-settings",
+  "builtAt": "2026-10-12T13:22:18.345925+09:00",
+  "sourceCommit": "49f2cf8c440f4402a570e2ba88d5f0f04b5b2495",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v37.pck",
-  "packBytes": 104148820,
-  "packSha256": "b969aba20ac3939040db420d22c8ec2ed199a955b8bfca6e66b21b60c5dc5eb6",
+  "pack": "game-v38.pck",
+  "packBytes": 104156884,
+  "packSha256": "7cf98d696425f4149a5f8f0d4bb60d01c060ba05e763133eb566e99e2cd80367",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": true,
@@ -61,5 +61,10 @@
   "menuGuideContexts": 5,
   "firstReturnHomeGuide": true,
   "contextEquipmentGuides": true,
-  "nextExpeditionPreparationOnlyOnVictory": true
+  "nextExpeditionPreparationOnlyOnVictory": true,
+  "sharedGameSettings": true,
+  "customSeedInputRemoved": true,
+  "separateAudioSliders": true,
+  "fullscreenButton": true,
+  "webAutoViewport": true
 }
