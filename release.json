@@ -1,7 +1,7 @@
 {
-  "version": "v36-combat-choices-and-echo",
-  "builtAt": "2026-10-09T01:14:15.844321+09:00",
-  "sourceCommit": "c76a9836dfd06797937393bd108addfecb4f594a",
+  "version": "v37-results-and-menu-guides",
+  "builtAt": "2026-10-12T10:41:26.675561+09:00",
+  "sourceCommit": "5a0995e5cf83741eeed40df27d869b05595d9c3d",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v36.pck",
-  "packBytes": 104135660,
-  "packSha256": "5b47ebf47e8197937ec3a84ae34edba842b8530135b6d5842d89f89537d2b6f2",
+  "pack": "game-v37.pck",
+  "packBytes": 104148820,
+  "packSha256": "b969aba20ac3939040db420d22c8ec2ed199a955b8bfca6e66b21b60c5dc5eb6",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": true,
@@ -56,5 +56,10 @@
   "currentBoardAwakeningComparison": true,
   "postClearEchoTurns": 12,
   "echoRewardsSeparated": true,
-  "echoRecordsByClassAndAscension": true
+  "echoRecordsByClassAndAscension": true,
+  "scrollFreeResults": true,
+  "menuGuideContexts": 5,
+  "firstReturnHomeGuide": true,
+  "contextEquipmentGuides": true,
+  "nextExpeditionPreparationOnlyOnVictory": true
 }
