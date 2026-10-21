@@ -1,7 +1,7 @@
 {
-  "version": "v41-clear-class-skills",
-  "builtAt": "2026-10-20T20:03:53.573888+09:00",
-  "sourceCommit": "a5c1233f507310b7b527ac6a18daa70bc02a0e5d",
+  "version": "v42-skill-gauges-cleric-art",
+  "builtAt": "2026-10-21T13:27:40.150703+09:00",
+  "sourceCommit": "9e0c5b272162811dbbb56f0055abbe5a090561c0",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v41.pck",
-  "packBytes": 104204324,
-  "packSha256": "699266b9fdaa7cb3150c42006cab23591454ce50fe9634453f0398b5a30e8aa9",
+  "pack": "game-v42.pck",
+  "packBytes": 104457884,
+  "packSha256": "02e25f6479a8d6f3646e9e85b707b029d4e6c86ca46298e6bf08b97cc04e2ac6",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -90,5 +90,7 @@
   "endlessMilestonePoints": 5,
   "classSkillActionHints": true,
   "classTrainingBeforeAfter": true,
-  "classSkillRulesUnchanged": true
+  "classSkillRulesUnchanged": true,
+  "classSkillProgressGauges": true,
+  "clericPoseAtlas": true
 }
