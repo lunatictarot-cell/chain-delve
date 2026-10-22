@@ -1,7 +1,7 @@
 {
-  "version": "v47-class-guide-browser",
-  "builtAt": "2026-10-22T10:55:59.986043+09:00",
-  "sourceCommit": "25323c89573a8f7bac332f1a4de11a4db7aca668",
+  "version": "v48-rounded-typography",
+  "builtAt": "2026-10-22T15:10:47.225271+09:00",
+  "sourceCommit": "9e3becb5bd99fe40ad9ec1d89ea3c947674573d3",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v47.pck",
-  "packBytes": 103828432,
-  "packSha256": "9128646cdd7222a9e2497f9b0bd55bde75b4d39ccb52460532168f7da1bfe817",
+  "pack": "game-v48.pck",
+  "packBytes": 103272856,
+  "packSha256": "d85c5acc1215418682a033811400f720003788ebb8e3d24669a069e62c3b0469",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -113,5 +113,7 @@
   "tileBadgesPreserveArt": true,
   "classGuideNavigation": true,
   "lockedClassPreview": true,
-  "chooseClassFromGuide": true
+  "chooseClassFromGuide": true,
+  "roundedTypography": true,
+  "bodyDisplayFontRoles": true
 }
