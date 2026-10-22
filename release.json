@@ -1,7 +1,7 @@
 {
-  "version": "v45-clear-feedback-and-night-home",
-  "builtAt": "2026-10-22T10:09:51.394715+09:00",
-  "sourceCommit": "b040456a479fe0540b44b5b8d03ccfa5f4bdb4fd",
+  "version": "v46-responsive-home-and-tile-badges",
+  "builtAt": "2026-10-22T10:34:22.481929+09:00",
+  "sourceCommit": "408354394de1bfd7b7a81a210cccc98b9254ffb7",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v45.pck",
-  "packBytes": 103821152,
-  "packSha256": "adf568b1181edce589c792f8f5859335dd438d9ec6ce4836e9c6b62187e91fc3",
+  "pack": "game-v46.pck",
+  "packBytes": 103825616,
+  "packSha256": "87ff2b9f36c3dfefe6568c9c4a4205a19aeb44093fc81af93928aa2569561708",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -107,5 +107,8 @@
   "structuredUnlockDetails": true,
   "nightHomeFrame": true,
   "consolidatedHomeArchive": true,
-  "homeSettingsUtilities": true
+  "homeSettingsUtilities": true,
+  "allClassSlotsVisible": true,
+  "portraitHomeReflow": true,
+  "tileBadgesPreserveArt": true
 }
