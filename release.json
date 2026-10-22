@@ -1,7 +1,7 @@
 {
-  "version": "v46-responsive-home-and-tile-badges",
-  "builtAt": "2026-10-22T10:34:22.481929+09:00",
-  "sourceCommit": "408354394de1bfd7b7a81a210cccc98b9254ffb7",
+  "version": "v47-class-guide-browser",
+  "builtAt": "2026-10-22T10:55:59.986043+09:00",
+  "sourceCommit": "25323c89573a8f7bac332f1a4de11a4db7aca668",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v46.pck",
-  "packBytes": 103825616,
-  "packSha256": "87ff2b9f36c3dfefe6568c9c4a4205a19aeb44093fc81af93928aa2569561708",
+  "pack": "game-v47.pck",
+  "packBytes": 103828432,
+  "packSha256": "9128646cdd7222a9e2497f9b0bd55bde75b4d39ccb52460532168f7da1bfe817",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -110,5 +110,8 @@
   "homeSettingsUtilities": true,
   "allClassSlotsVisible": true,
   "portraitHomeReflow": true,
-  "tileBadgesPreserveArt": true
+  "tileBadgesPreserveArt": true,
+  "classGuideNavigation": true,
+  "lockedClassPreview": true,
+  "chooseClassFromGuide": true
 }
