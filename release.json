@@ -1,7 +1,7 @@
 {
-  "version": "v50-portrait-readability",
-  "builtAt": "2026-10-22T16:55:43.887862+09:00",
-  "sourceCommit": "37a10b4b6ef44c1a19b68f9c44aea78e6a7795c9",
+  "version": "v51-locked-class-shortcut",
+  "builtAt": "2026-10-22T17:24:59.243621+09:00",
+  "sourceCommit": "9a342f0a3689114a76c9dc3101b651f135879fa3",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v50.pck",
-  "packBytes": 103699128,
-  "packSha256": "0be929304e79b5da68ebb61d773d1d91eee042e38de664eff5b5d21848e779f3",
+  "pack": "game-v51.pck",
+  "packBytes": 103699688,
+  "packSha256": "142f78a20ffc1d7dc65e246fef876ea181f7cbf7973a42483dc30ee56d289dab",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -117,5 +117,6 @@
   "roundedTypography": true,
   "bodyDisplayFontRoles": true,
   "mapleStoryTypography": true,
-  "portraitReadableHome": true
+  "portraitReadableHome": true,
+  "lockedClassUnlockShortcut": true
 }
