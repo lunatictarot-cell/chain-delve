@@ -1,7 +1,7 @@
 {
-  "version": "v51-locked-class-shortcut",
-  "builtAt": "2026-10-22T17:24:59.243621+09:00",
-  "sourceCommit": "9a342f0a3689114a76c9dc3101b651f135879fa3",
+  "version": "v52-tile-role-legend",
+  "builtAt": "2026-10-23T16:58:42.714236+09:00",
+  "sourceCommit": "9fb9a61f8a1f28ecb6783d26d77bc6ad7fcde443",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v51.pck",
-  "packBytes": 103699688,
-  "packSha256": "142f78a20ffc1d7dc65e246fef876ea181f7cbf7973a42483dc30ee56d289dab",
+  "pack": "game-v52.pck",
+  "packBytes": 103699512,
+  "packSha256": "80e845a01898411523bfae2513741fa4fa8698f89efa177d2eaaef5c32e40368",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -118,5 +118,7 @@
   "bodyDisplayFontRoles": true,
   "mapleStoryTypography": true,
   "portraitReadableHome": true,
-  "lockedClassUnlockShortcut": true
+  "lockedClassUnlockShortcut": true,
+  "tileShapeBadgesRemoved": true,
+  "cosmeticRoleLegend": true
 }
