@@ -1,7 +1,7 @@
 {
-  "version": "v53-dungeon-regular",
-  "builtAt": "2026-10-27T20:48:08.627661+09:00",
-  "sourceCommit": "bc638774e1cc5eb69c24d6bdabd98b4b5e2aa872",
+  "version": "v54-touch-release",
+  "builtAt": "2026-10-28T09:47:34.281264+09:00",
+  "sourceCommit": "70736140440df81198db527107129c441b6b04af",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v53.pck",
-  "packBytes": 51814500,
-  "packSha256": "ff0249e73d07b0267cf71dff065b0070e2e632113500a054ed16a09869327e0e",
+  "pack": "game-v54.pck",
+  "packBytes": 51814932,
+  "packSha256": "1c6824549565c80f6d393da146ed95f36e3675a7e7f13f849930b44dba5853e5",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -123,5 +123,6 @@
   "cosmeticRoleLegend": true,
   "titleKo": "던전 단골",
   "titleEn": "Dungeon Regular",
-  "landscapeEquipmentFits": true
+  "landscapeEquipmentFits": true,
+  "touchReleaseMarginTiles": 1
 }
