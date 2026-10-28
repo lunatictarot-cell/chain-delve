@@ -1,7 +1,7 @@
 {
-  "version": "v54-touch-release",
-  "builtAt": "2026-10-28T09:47:34.281264+09:00",
-  "sourceCommit": "70736140440df81198db527107129c441b6b04af",
+  "version": "v55-phone-usability",
+  "builtAt": "2026-10-28T11:38:49.055995+09:00",
+  "sourceCommit": "c5558b6",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v54.pck",
-  "packBytes": 51814932,
-  "packSha256": "1c6824549565c80f6d393da146ed95f36e3675a7e7f13f849930b44dba5853e5",
+  "pack": "game-v55.pck",
+  "packBytes": 51821484,
+  "packSha256": "0862d79f65afe97ecd2ce6c00a0c60c03764fb519442980d24b2c0e0b6d5c22d",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -124,5 +124,9 @@
   "titleKo": "던전 단골",
   "titleEn": "Dungeon Regular",
   "landscapeEquipmentFits": true,
-  "touchReleaseMarginTiles": 1
+  "touchReleaseMarginTiles": 1,
+  "touchScrollCards": true,
+  "lethalHpWarning": true,
+  "openingEnemyCap": 4,
+  "openingFloorElites": false
 }
