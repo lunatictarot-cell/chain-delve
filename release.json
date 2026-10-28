@@ -1,7 +1,7 @@
 {
-  "version": "v55-phone-usability",
-  "builtAt": "2026-10-28T11:38:49.055995+09:00",
-  "sourceCommit": "c5558b6",
+  "version": "v56-phone-usability",
+  "builtAt": "2026-10-28T11:46:19.133972+09:00",
+  "sourceCommit": "99ad248",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v55.pck",
-  "packBytes": 51821484,
-  "packSha256": "0862d79f65afe97ecd2ce6c00a0c60c03764fb519442980d24b2c0e0b6d5c22d",
+  "pack": "game-v56.pck",
+  "packBytes": 51824440,
+  "packSha256": "e36ed52fbe667796d19d0308da9dcf2edf15f3f4f4d2d8c7060f6749c04a45b4",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -128,5 +128,7 @@
   "touchScrollCards": true,
   "lethalHpWarning": true,
   "openingEnemyCap": 4,
-  "openingFloorElites": false
+  "openingFloorElites": false,
+  "relicOfferIdentity": true,
+  "nextActGuidesLocalized": true
 }
