@@ -2,7 +2,7 @@
 <html lang="ko">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, viewport-fit=cover">
 		<title>던전 단골 · Dungeon Regular</title>
 		<style>
 html, body, #canvas {
@@ -12,6 +12,11 @@ html, body, #canvas {
 }
 
 body {
+	box-sizing: border-box;
+	position: fixed;
+	inset: 0;
+	padding-top: env(safe-area-inset-top, 0px);
+	padding-bottom: env(safe-area-inset-bottom, 0px);
 	color: white;
 	background-color: black;
 	overflow: hidden;
@@ -111,8 +116,9 @@ body {
 
 		<script src="audio-gate-v19.js"></script>
 		<script src="index.js"></script>
-		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.wasm":39513091,"game-v56.pck":51824440},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4,"mainPack":"game-v56.pck"};
+		<script src="visible-viewport.js"></script>
+<script>
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":0,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.wasm":39513091,"game-v57.pck":51840896},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4,"mainPack":"game-v57.pck"};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 

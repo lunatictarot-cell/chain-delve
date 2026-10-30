@@ -1,7 +1,7 @@
 {
-  "version": "v56-phone-usability",
-  "builtAt": "2026-10-28T11:46:19.133972+09:00",
-  "sourceCommit": "99ad248",
+  "version": "v57-progression-clarity",
+  "builtAt": "2026-10-30T10:17:28.468129+09:00",
+  "sourceCommit": "b505bbcfe9656ee4abacd7634a9df40e8d2e651f",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v56.pck",
-  "packBytes": 51824440,
-  "packSha256": "e36ed52fbe667796d19d0308da9dcf2edf15f3f4f4d2d8c7060f6749c04a45b4",
+  "pack": "game-v57.pck",
+  "packBytes": 51840896,
+  "packSha256": "c2e81c87f9daa508ad7b9660a15bb389b100b06a7a6c501e2ebc2c903156c9f8",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -130,5 +130,11 @@
   "openingEnemyCap": 4,
   "openingFloorElites": false,
   "relicOfferIdentity": true,
-  "nextActGuidesLocalized": true
+  "nextActGuidesLocalized": true,
+  "resonanceExplicitSetup": true,
+  "contractRecordMenu": true,
+  "trainingThresholdLabels": true,
+  "sealFollowsTile": true,
+  "visibleViewportSizing": true,
+  "economyPricesChanged": false
 }
