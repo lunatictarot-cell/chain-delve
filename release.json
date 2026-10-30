@@ -1,7 +1,7 @@
 {
-  "version": "v57-progression-clarity",
-  "builtAt": "2026-10-30T10:17:28.468129+09:00",
-  "sourceCommit": "b505bbcfe9656ee4abacd7634a9df40e8d2e651f",
+  "version": "v58-economy-catalog-audit",
+  "builtAt": "2026-10-30T11:32:21.078542+09:00",
+  "sourceCommit": "9e4e87c94afbc1523403fc395485037ec00a6c41",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v57.pck",
-  "packBytes": 51840896,
-  "packSha256": "c2e81c87f9daa508ad7b9660a15bb389b100b06a7a6c501e2ebc2c903156c9f8",
+  "pack": "game-v58.pck",
+  "packBytes": 51841712,
+  "packSha256": "290deb3e808cd4090bef33870a217fb1f4c21e8af00d36551050fad708964c4e",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -136,5 +136,9 @@
   "trainingThresholdLabels": true,
   "sealFollowsTile": true,
   "visibleViewportSizing": true,
-  "economyPricesChanged": false
+  "economyPricesChanged": true,
+  "approvedTotalCost": 2288,
+  "catalogPriceValidation": true,
+  "eventLevelXpBreakdown": true,
+  "portraitGrowthOptions": true
 }
