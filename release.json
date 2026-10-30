@@ -1,7 +1,7 @@
 {
-  "version": "v58-economy-catalog-audit",
-  "builtAt": "2026-10-30T11:32:21.078542+09:00",
-  "sourceCommit": "9e4e87c94afbc1523403fc395485037ec00a6c41",
+  "version": "v59-relic-identity-stamp-clarity",
+  "builtAt": "2026-10-30T12:11:17.322418+09:00",
+  "sourceCommit": "7d66cd9885f21c7946e982de1f20fc43ab4f7cff",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v58.pck",
-  "packBytes": 51841712,
-  "packSha256": "290deb3e808cd4090bef33870a217fb1f4c21e8af00d36551050fad708964c4e",
+  "pack": "game-v59.pck",
+  "packBytes": 51843008,
+  "packSha256": "b154c38fba878dd76631baf1bcf8b6972d909d4af6e453c375ccea25862c7219",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -140,5 +140,8 @@
   "approvedTotalCost": 2288,
   "catalogPriceValidation": true,
   "eventLevelXpBreakdown": true,
-  "portraitGrowthOptions": true
+  "portraitGrowthOptions": true,
+  "actualRelicComboIcons": true,
+  "pagedBagSelection": true,
+  "stampPurposeClarity": true
 }
