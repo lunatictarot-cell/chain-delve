@@ -1,7 +1,7 @@
 {
-  "version": "v59-relic-identity-stamp-clarity",
-  "builtAt": "2026-10-30T12:11:17.322418+09:00",
-  "sourceCommit": "7d66cd9885f21c7946e982de1f20fc43ab4f7cff",
+  "version": "v60-resonance-resource-help",
+  "builtAt": "2026-10-30T12:33:37.836100+09:00",
+  "sourceCommit": "39768acdb7739abc9a50fbf35aaa04685191aca3",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v59.pck",
-  "packBytes": 51843008,
-  "packSha256": "b154c38fba878dd76631baf1bcf8b6972d909d4af6e453c375ccea25862c7219",
+  "pack": "game-v60.pck",
+  "packBytes": 51846160,
+  "packSha256": "73cb1005beb6c4f9c60f038b2ae15d9e0cba2881628356c7abd7a3149fa2f72f",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -143,5 +143,7 @@
   "portraitGrowthOptions": true,
   "actualRelicComboIcons": true,
   "pagedBagSelection": true,
-  "stampPurposeClarity": true
+  "stampPurposeClarity": true,
+  "resonanceResourceDialog": true,
+  "resonanceResourceCounts": true
 }
