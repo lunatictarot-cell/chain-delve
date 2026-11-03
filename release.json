@@ -1,7 +1,7 @@
 {
-  "version": "v64-mobile-performance",
-  "builtAt": "2026-11-03T12:38:21.141117+09:00",
-  "sourceCommit": "cc933584f73ab1ec478577c84dee6155d2fcfd95",
+  "version": "v65-player-text",
+  "builtAt": "2026-11-03T12:49:48.811465+09:00",
+  "sourceCommit": "622ecd11b43e3d3c981f5669315d343b4d6767ea",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v64.pck",
-  "packBytes": 51904860,
-  "packSha256": "01d497c4e3af19de5ee42692aee16c6b6690d0e6c1eb4579964dcc04f051d3b4",
+  "pack": "game-v65.pck",
+  "packBytes": 51904924,
+  "packSha256": "746f1552b49b2fa159217c9e74ad3266663375a13acf4ea215624ee8c28b3e84",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -155,5 +155,7 @@
   "webMaxBackingPixels": 1500000,
   "cachedMobileCombatForecast": true,
   "ordinaryWebBackgroundPause": true,
-  "oneTapRewardedPreload": true
+  "oneTapRewardedPreload": true,
+  "internalSeedLabelsHidden": true,
+  "legacyRecordNamesSafe": true
 }
