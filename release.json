@@ -1,7 +1,7 @@
 {
-  "version": "v65-player-text",
-  "builtAt": "2026-11-03T12:49:48.811465+09:00",
-  "sourceCommit": "622ecd11b43e3d3c981f5669315d343b4d6767ea",
+  "version": "v66-ios-audio-diagnostics",
+  "builtAt": "2026-11-03T13:27:59.199212+09:00",
+  "sourceCommit": "94f42582ae5f028ab8cfa1d719fa130d983383e2",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v65.pck",
-  "packBytes": 51904924,
-  "packSha256": "746f1552b49b2fa159217c9e74ad3266663375a13acf4ea215624ee8c28b3e84",
+  "pack": "game-v66.pck",
+  "packBytes": 51910640,
+  "packSha256": "931f71b6b79bb3486f015cac8b50de5f0b4541a13ac0075ce1d971774585fba1",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -157,5 +157,8 @@
   "ordinaryWebBackgroundPause": true,
   "oneTapRewardedPreload": true,
   "internalSeedLabelsHidden": true,
-  "legacyRecordNamesSafe": true
+  "legacyRecordNamesSafe": true,
+  "webAudioPlayback": "Stream",
+  "localRuntimeBreadcrumbs": true,
+  "iosRestartFixConfirmed": false
 }
