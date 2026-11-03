@@ -2,6 +2,15 @@
 (() => {
   const canvas = document.getElementById('canvas');
   if (!canvas) return;
+  // The ordinary web build uses the same frame-boundary suspension bridge as
+  // Toss, without its exit/payment APIs. No saves or identifiers leave the device.
+  window.ChainDelveHost = window.ChainDelveHost || {
+    state: document.hidden ? 1 : 0,
+    ready() { this.state = document.hidden ? 1 : 0; },
+  };
+  document.addEventListener('visibilitychange', () => {
+    window.ChainDelveHost.state = document.hidden ? 1 : 0;
+  });
   let scheduled = false;
   function fit() {
     scheduled = false;
@@ -12,7 +21,9 @@
     const height = Math.max(1, fullHeight - (parseFloat(padding.paddingTop) || 0) - (parseFloat(padding.paddingBottom) || 0));
     document.body.style.height = fullHeight + 'px';
     canvas.style.width = width + 'px'; canvas.style.height = height + 'px';
-    const dpr = window.devicePixelRatio || 1;
+    // Cap backing pixels, not CSS layout or touch coordinates. A DPR-3 phone
+    // otherwise draws nine pixels for every CSS pixel in this 2D board.
+    const dpr = Math.min(window.devicePixelRatio || 1, 2, Math.sqrt(1500000 / (width * height)));
     const w = Math.round(width * dpr), h = Math.round(height * dpr);
     if (canvas.width !== w) canvas.width = w;
     if (canvas.height !== h) canvas.height = h;
