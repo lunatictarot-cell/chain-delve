@@ -1,7 +1,7 @@
 {
-  "version": "v61-menu-growth",
-  "builtAt": "2026-11-02T17:54:23.554138+09:00",
-  "sourceCommit": "9ed7d74555403ff8e0fb840b44f8b715c9f87a49",
+  "version": "v62-rebirth-stones",
+  "builtAt": "2026-11-03T11:47:16.159848+09:00",
+  "sourceCommit": "09ff8ceea2583e1258d2bd9fc17cc5a96f8e5045",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v61.pck",
-  "packBytes": 51841184,
-  "packSha256": "cfa9ac709095229735f841a8739909eebbea7b59049af77dc610ab7b262c452f",
+  "pack": "game-v62.pck",
+  "packBytes": 51903676,
+  "packSha256": "3942cbe50b79084d1aad3e9b702bd6063946c7a45bbf16ca8fa1bc1c5434487b",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -144,5 +144,10 @@
   "uncappedPermanentGrowth": true,
   "relicGridFullWidth": true,
   "pinnedGoalContained": true,
-  "approvedInitialCatalogCost": 2288
+  "approvedInitialCatalogCost": 2288,
+  "currencyKo": "환생석",
+  "currencyEn": "Rebirth Stones",
+  "rewardedAdsProvider": "Toss only; test build available",
+  "rewardedAdsOnPublicWeb": false,
+  "adEconomyPriceIncrease": false
 }
