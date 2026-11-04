@@ -9,15 +9,12 @@
     ko: {title:'던전 단골',tag:'오늘도, 던전으로.',loading:'던전 문을 준비하고 있어요',final:'모험을 준비하고 있어요…',enter:'문을 눌러 입장하기',hint:'익숙한 문 너머, 새로운 모험',opening:'어서 오세요, 단골 모험가님!',retry:'다시 준비하기',fail:'준비를 마치지 못했어요. 연결 상태를 확인하고 다시 시도해 주세요.',slow:'준비가 조금 길어지고 있어요. 잠시만 기다려 주세요.'},
     en: {title:'Dungeon Regular',tag:'Another day. Another dungeon.',loading:'Preparing the dungeon door',final:'Getting your adventure ready…',enter:'Tap the door to enter',hint:'A familiar door. A new adventure.',opening:'Welcome back, adventurer!',retry:'Try again',fail:'Unable to get ready. Check your connection and try again.',slow:'Getting ready is taking a little longer…'}
   };
-  // Inline vector art: no font/image requests before the first screen can paint.
-  root.innerHTML = `<div class="entrance-scene" aria-hidden="true"><div class="entrance-stars"></div>
-    <div class="entrance-arch"><div class="entrance-interior"></div><div class="entrance-doors">
-      <div class="entrance-door left"><i></i><b></b><span>◆</span></div><div class="entrance-door right"><i></i><b></b><span>◆</span></div>
-    </div><div class="entrance-keystone">◆</div></div>
-    <div class="entrance-lamp left"><i></i></div><div class="entrance-lamp right"><i></i></div><div class="entrance-steps"></div>
-    <div class="entrance-vignette"></div></div>
+  // Illustrated background and two clipped door leaves share the same composition.
+  // The opening is a one-shot transform; no video, particle loop or extra canvas.
+  root.innerHTML = `<div class="entrance-scene"><div class="entrance-art" aria-hidden="true"></div>
+    <div class="entrance-doors" aria-hidden="true"><div class="entrance-door left"></div><div class="entrance-door right"></div></div>
+    <button class="entrance-enter" type="button" disabled><span></span><small></small></button></div>
     <header class="entrance-heading"><div class="entrance-eyebrow">DUNGEON REGULAR</div><h1></h1><p></p></header>
-    <button class="entrance-enter" type="button" disabled><span></span><small></small></button>
     <footer class="entrance-footer"><p role="status" aria-live="polite"></p><progress max="100" aria-label="Loading"></progress><button class="entrance-retry" type="button" hidden></button></footer>`;
   const button = root.querySelector('.entrance-enter');
   const notice = root.querySelector('[role=status]');
