@@ -5,12 +5,12 @@
   // The ordinary web build uses the same frame-boundary suspension bridge as
   // Toss, without its exit/payment APIs. No saves or identifiers leave the device.
   window.ChainDelveHost = window.ChainDelveHost || {
-    state: document.hidden ? 1 : 0,
-    ready() { this.state = document.hidden ? 1 : 0; },
+    state: (document.hidden || window.ChainDelveEntrance?.blocking) ? 1 : 0,
+    ready() { this.state = (document.hidden || window.ChainDelveEntrance?.blocking) ? 1 : 0; },
   };
-  document.addEventListener('visibilitychange', () => {
-    window.ChainDelveHost.state = document.hidden ? 1 : 0;
-  });
+  function suspend() { window.ChainDelveHost.state = (document.hidden || window.ChainDelveEntrance?.blocking) ? 1 : 0; }
+  document.addEventListener('visibilitychange', suspend);
+  window.addEventListener('entrancechange', suspend);
   let scheduled = false;
   function fit() {
     scheduled = false;

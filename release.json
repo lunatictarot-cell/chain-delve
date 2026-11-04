@@ -1,7 +1,7 @@
 {
-  "version": "v68-rebirth-treasure",
-  "builtAt": "2026-11-04T12:24:13.041755+09:00",
-  "sourceCommit": "d806f617f4326f3300b9dd5687c1462511ef6488",
+  "version": "v69-dungeon-entrance",
+  "builtAt": "2026-11-04T14:31:28.0463474+09:00",
+  "sourceCommit": "00b7930ed2c8b3033f0e673fe7a9e8b84e563cba",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v68.pck",
-  "packBytes": 51949452,
-  "packSha256": "bb470bde7d2be0c1d1d64a51c4eabf9071268802388f83b7900ef8d80bb5418e",
+  "pack": "game-v69.pck",
+  "packBytes": 38700300,
+  "packSha256": "747a3c2867a41713c75cf194ab03d244dbd74d4286c4b5247b1d006d2d6378a3",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -176,5 +176,8 @@
   ],
   "rebirthTierCap": 15,
   "rebirthTreasureNewRunsOnly": true,
-  "ascensionRenamedToRebirthTier": true
+  "ascensionRenamedToRebirthTier": true,
+  "dungeonEntrance": true,
+  "entranceSharedWithToss": true,
+  "obsoleteBgmPruned": 5
 }
