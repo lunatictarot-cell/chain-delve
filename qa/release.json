@@ -1,0 +1,12 @@
+{
+  "version": "v72-web-qa",
+  "sourceCommit": "729555d2ca49d47047ec0e349c0a10d1d9c2372c",
+  "gameplayCommit": "3f081ee370c192a12186fb107206b1f806a36469",
+  "features": [
+    "rebirth_test"
+  ],
+  "storage": "memory-only; persistentPaths=[]; no normal diagnostics writer",
+  "pack": "game-v72-qa.pck",
+  "bytes": 38735728,
+  "sha256": "19706c62c0492b55abe364528f12aaad190983391d23bf3704d1b340ecd2521d"
+}
