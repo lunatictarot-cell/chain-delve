@@ -1,7 +1,7 @@
 {
-  "version": "v66-ios-audio-diagnostics",
-  "builtAt": "2026-11-03T13:27:59.199212+09:00",
-  "sourceCommit": "94f42582ae5f028ab8cfa1d719fa130d983383e2",
+  "version": "v67-relic-balance",
+  "builtAt": "2026-11-04T11:21:15.533321+09:00",
+  "sourceCommit": "1169ec191a70c133bc5dac6761b77e4b3941d9d8",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v66.pck",
-  "packBytes": 51910640,
-  "packSha256": "931f71b6b79bb3486f015cac8b50de5f0b4541a13ac0075ce1d971774585fba1",
+  "pack": "game-v67.pck",
+  "packBytes": 51939860,
+  "packSha256": "56193228033e318f583423665401be04ccaa2e86caa4a47673282f531768b26f",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -160,5 +160,11 @@
   "legacyRecordNamesSafe": true,
   "webAudioPlayback": "Stream",
   "localRuntimeBreadcrumbs": true,
-  "iosRestartFixConfirmed": false
+  "iosRestartFixConfirmed": false,
+  "relicBalanceVersion": 2,
+  "relicMultiplierStack": "highest eligible",
+  "relicCollectionBonus": true,
+  "rebalancedRelics": 50,
+  "legacyRelicRulesPreserved": true,
+  "iosV66UserObservation": "Two runs without restart; sound normal. Long-term stability unconfirmed"
 }
