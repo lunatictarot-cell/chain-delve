@@ -1,7 +1,7 @@
 {
   "version": "v67-relic-balance",
-  "builtAt": "2026-11-04T11:21:15.533321+09:00",
-  "sourceCommit": "1169ec191a70c133bc5dac6761b77e4b3941d9d8",
+  "builtAt": "2026-11-04T11:31:51.072930+09:00",
+  "sourceCommit": "4e8843da72f400794568c80e1f135b2fcdefa456",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -16,8 +16,8 @@
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
   "pack": "game-v67.pck",
-  "packBytes": 51939860,
-  "packSha256": "56193228033e318f583423665401be04ccaa2e86caa4a47673282f531768b26f",
+  "packBytes": 51940660,
+  "packSha256": "fbf45b6afa66afbf957c1c5a3480663a121fff29c1e0b0584dca2e2764c7bb51",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -162,9 +162,11 @@
   "localRuntimeBreadcrumbs": true,
   "iosRestartFixConfirmed": false,
   "relicBalanceVersion": 2,
-  "relicMultiplierStack": "highest eligible",
+  "relicMultiplierStack": "multiply (unchanged)",
   "relicCollectionBonus": true,
   "rebalancedRelics": 50,
   "legacyRelicRulesPreserved": true,
-  "iosV66UserObservation": "Two runs without restart; sound normal. Long-term stability unconfirmed"
+  "iosV66UserObservation": "Two runs without restart; sound normal. Long-term stability unconfirmed",
+  "relicCollectionSettlementPointsPerRelic": 2,
+  "relicCollectionSettlementExcludesStarter": true
 }
