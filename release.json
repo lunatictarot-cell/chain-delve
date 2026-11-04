@@ -1,7 +1,7 @@
 {
-  "version": "v67-relic-balance",
-  "builtAt": "2026-11-04T11:31:51.072930+09:00",
-  "sourceCommit": "4e8843da72f400794568c80e1f135b2fcdefa456",
+  "version": "v68-rebirth-treasure",
+  "builtAt": "2026-11-04T12:24:13.041755+09:00",
+  "sourceCommit": "d806f617f4326f3300b9dd5687c1462511ef6488",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v67.pck",
-  "packBytes": 51940660,
-  "packSha256": "fbf45b6afa66afbf957c1c5a3480663a121fff29c1e0b0584dca2e2764c7bb51",
+  "pack": "game-v68.pck",
+  "packBytes": 51949452,
+  "packSha256": "bb470bde7d2be0c1d1d64a51c4eabf9071268802388f83b7900ef8d80bb5418e",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -168,5 +168,13 @@
   "legacyRelicRulesPreserved": true,
   "iosV66UserObservation": "Two runs without restart; sound normal. Long-term stability unconfirmed",
   "relicCollectionSettlementPointsPerRelic": 2,
-  "relicCollectionSettlementExcludesStarter": true
+  "relicCollectionSettlementExcludesStarter": true,
+  "rebirthTreasureTiers": [
+    1,
+    2,
+    3
+  ],
+  "rebirthTierCap": 15,
+  "rebirthTreasureNewRunsOnly": true,
+  "ascensionRenamedToRebirthTier": true
 }
