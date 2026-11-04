@@ -1,7 +1,7 @@
 {
-  "version": "v71-door-light-relic-clarity",
-  "builtAt": "2026-11-04T15:20:22.4207353+09:00",
-  "sourceCommit": "8b35a24c1ec232e422119b6ca024ada116e78f54",
+  "version": "v72-rebirth-tiers-and-first-clear",
+  "builtAt": "2026-11-04T16:24:17.778781+09:00",
+  "sourceCommit": "cbd87f7",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v71.pck",
-  "packBytes": 38701820,
-  "packSha256": "5c9d664f580b4bf41988c44e72de97b26d39e531a7c3f8affcc9cb2a90447b61",
+  "pack": "game-v72.pck",
+  "packBytes": 38735680,
+  "packSha256": "708067597c823cab262fa1cc65a4492cbcce8daaf04c5cb6e5d258d0479a96c0",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -184,5 +184,13 @@
   "entranceArtBytes": 336052,
   "entranceTransitionMs": 2800,
   "sharedRelicCollectionNotice": true,
-  "relicUsageLabels": true
+  "relicUsageLabels": true,
+  "implementationCommit": "3f081ee370c192a12186fb107206b1f806a36469",
+  "rebirthRulesVersion": 1,
+  "rebirthMechanicsThroughTier": 15,
+  "rebirthTestCheat": false,
+  "firstRunHpMultiplier": 0.9,
+  "firstRunAttackMultiplier": 0.88,
+  "priceChangedInV72": false,
+  "adCompletionPlanningBaseline": 0.5
 }
