@@ -1,7 +1,7 @@
 {
-  "version": "v70-illustrated-entrance",
-  "builtAt": "2026-11-04T14:40:58.7239653+09:00",
-  "sourceCommit": "dde1221ef823119464286d7ea2134500322c12da",
+  "version": "v71-door-light-relic-clarity",
+  "builtAt": "2026-11-04T15:20:22.4207353+09:00",
+  "sourceCommit": "8b35a24c1ec232e422119b6ca024ada116e78f54",
   "relics": 94,
   "normalActs": 5,
   "floorsPerAct": 4,
@@ -15,9 +15,9 @@
   "revivingBossMarker": true,
   "skinAudioIncluded": false,
   "legacySavesPreserved": true,
-  "pack": "game-v70.pck",
-  "packBytes": 38700300,
-  "packSha256": "747a3c2867a41713c75cf194ab03d244dbd74d4286c4b5247b1d006d2d6378a3",
+  "pack": "game-v71.pck",
+  "packBytes": 38701820,
+  "packSha256": "5c9d664f580b4bf41988c44e72de97b26d39e531a7c3f8affcc9cb2a90447b61",
   "engine": "4.7.1.stable.official",
   "highestEarnedAscensionDefault": true,
   "challengeComparisonCards": false,
@@ -181,5 +181,8 @@
   "entranceSharedWithToss": true,
   "obsoleteBgmPruned": 5,
   "illustratedEntrance": true,
-  "entranceArtBytes": 336052
+  "entranceArtBytes": 336052,
+  "entranceTransitionMs": 2800,
+  "sharedRelicCollectionNotice": true,
+  "relicUsageLabels": true
 }

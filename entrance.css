@@ -4,7 +4,7 @@
 .entrance-art{position:absolute;inset:0;background:url('entrance-art/closed.webp') center/100% 100% no-repeat}
 .entrance-art:after{content:'';position:absolute;inset:0;background:url('entrance-art/open.webp') center/100% 100% no-repeat;opacity:0}
 .entrance-doors{position:absolute;left:26.6%;top:37.3%;width:46.8%;height:38.5%;perspective:900px;visibility:hidden;overflow:hidden}
-.entrance-door{position:absolute;top:0;bottom:0;width:50%;background-image:url('entrance-art/closed.webp');background-size:427.35% 259.74%;background-repeat:no-repeat;backface-visibility:hidden;transition:transform .6s cubic-bezier(.22,.61,.36,1),filter .6s}
+.entrance-door{position:absolute;top:0;bottom:0;width:50%;background-image:url('entrance-art/closed.webp');background-size:427.35% 259.74%;background-repeat:no-repeat;backface-visibility:hidden;transition:transform 2.2s cubic-bezier(.4,0,.2,1),filter 2.2s}
 .entrance-door.left{left:0;background-position:34.73% 60.65%;transform-origin:left center}.entrance-door.right{right:0;background-position:65.27% 60.65%;transform-origin:right center}
 .entrance-heading{position:absolute;top:calc(max(env(safe-area-inset-top,0px),var(--top,0px)) + var(--entrance-nav,0px) + 6%);left:16px;right:16px;text-align:center;pointer-events:none}
 .entrance-eyebrow{font-family:EntranceMaple,system-ui,sans-serif;font-size:clamp(11px,2.8vw,15px);letter-spacing:.18em;color:#e6c786;text-shadow:0 2px 3px #09262c}
@@ -15,7 +15,36 @@
 #entrance .entrance-enter small{position:absolute;top:calc(103% + 62px);left:50%;transform:translateX(-50%);width:200%;font:12px/1.4 system-ui,sans-serif;color:#f4e3bb;text-shadow:0 1px 4px #08272b}
 #entrance .entrance-enter:disabled{cursor:default}#entrance[data-state=loading] .entrance-enter,#entrance[data-state=error] .entrance-enter{visibility:hidden}.entrance-enter:focus-visible{outline:3px solid #ffe7a0;outline-offset:5px}
 .entrance-footer{position:absolute;left:16px;right:16px;bottom:calc(max(env(safe-area-inset-bottom,0px),var(--bottom,0px)) + 4%);text-align:center;font:14px/1.5 system-ui,sans-serif;color:#fff0cf;text-shadow:0 2px 5px #092d2e}.entrance-footer p{margin:0 0 10px;min-height:1.4em}.entrance-footer progress{display:block;width:min(250px,70vw);height:6px;margin:auto;accent-color:#e4bb69}.entrance-footer progress[hidden]{display:none}.entrance-footer progress::-webkit-progress-bar{background:#153d3b;border-radius:4px}.entrance-footer progress::-webkit-progress-value{background:#e4bb69;border-radius:4px}#entrance .entrance-retry{background:#1b514c;border:1px solid #d6b477;color:#fff0cc;padding:12px 24px;border-radius:12px;font:inherit}
-#entrance[data-state=ready] .entrance-footer{pointer-events:none}#entrance[data-state=opening] .entrance-art:after{opacity:1}#entrance[data-state=opening] .entrance-doors{visibility:visible}#entrance[data-state=opening] .entrance-door.left{transform:rotateY(-100deg);filter:brightness(.65)}#entrance[data-state=opening] .entrance-door.right{transform:rotateY(100deg);filter:brightness(.65)}#entrance[data-state=opening] .entrance-enter{opacity:0}#entrance[data-state=opening]{animation:entrance-fade .65s ease-in forwards}@keyframes entrance-fade{0%,70%{opacity:1}100%{opacity:0}}
+#entrance[data-state=ready] .entrance-footer{pointer-events:none}#entrance[data-state=opening] .entrance-art:after{opacity:1}#entrance[data-state=opening] .entrance-doors{visibility:visible}#entrance[data-state=opening] .entrance-door.left{transform:rotateY(-100deg);filter:brightness(.65)}#entrance[data-state=opening] .entrance-door.right{transform:rotateY(100deg);filter:brightness(.65)}#entrance[data-state=opening] .entrance-enter{opacity:0}
 #entrance.reduce-motion *,#entrance.reduce-motion{transition:none!important;animation:none!important}@media(prefers-reduced-motion:reduce){#entrance *,#entrance{transition:none!important;animation:none!important}}
-@media(min-aspect-ratio:1/1){.entrance-scene{height:150%;top:-25%;left:68%}.entrance-heading{left:4%;right:auto;width:38%;top:30%}.entrance-heading h1{font-size:clamp(34px,5vw,64px)}.entrance-heading p{font-size:16px}.entrance-footer{left:5%;right:auto;width:36%;bottom:18%}#entrance .entrance-enter small{display:none}#entrance .entrance-enter span{font-size:20px;top:100%;padding:8px 14px}.entrance-eyebrow{font-size:12px}}
+@media(min-aspect-ratio:1/1){.entrance-scene{height:150%;top:-25%;left:68%}.entrance-heading{left:4%;right:auto;width:38%;top:30%}.entrance-heading h1{font-size:clamp(34px,5vw,64px)}.entrance-heading p{font-size:16px}.entrance-footer{left:5%;right:auto;width:36%;bottom:18%}#entrance .entrance-enter small{display:none}#entrance .entrance-enter span{font-size:20px;top:90%;padding:8px 14px}.entrance-eyebrow{font-size:12px}}
 @media(max-height:650px) and (max-aspect-ratio:1/1){.entrance-heading{top:calc(var(--entrance-nav,0px) + 4%)}.entrance-heading h1{font-size:42px;margin:8px 0}.entrance-enter small{display:none!important}#entrance .entrance-enter span{padding:8px 12px;font-size:19px}}
+/* Ready affordance stays still: no idle animation or continuous repaint. */
+.entrance-scene:after{content:'';position:absolute;left:26.6%;top:37.3%;width:46.8%;height:38.5%;box-sizing:border-box;border:2px solid #ffe8a2;border-radius:3px;box-shadow:0 0 12px 3px #ffcd65bb,inset 0 0 16px #ffcf6b77;opacity:0;pointer-events:none;transition:opacity .25s}
+#entrance[data-state=ready] .entrance-scene:after{opacity:1}
+/* The source is BEHIND the leaves: their actual opening exposes more light.
+   Soft spill/rays share the door centre, including the landscape composition.
+   All outer light fades to transparent; no opaque rectangle scales on screen. */
+.entrance-source{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 62%,#fffef3 0%,#fff8da 30%,#ffe7a8c9 65%,#ffdf8e45 100%);opacity:0}
+.entrance-spill,.entrance-rays,.entrance-bloom{position:absolute;pointer-events:none;opacity:0}
+.entrance-spill{left:10%;top:31%;width:80%;height:56%;background:radial-gradient(ellipse,#fffdeb9c 0%,#ffecab61 28%,#ffd77420 53%,#ffd77400 72%);transform:scaleX(.02);transform-origin:50% 50%}
+.entrance-rays{left:-60%;top:36%;width:220%;height:105%;transform-origin:50% 20%;transform:scaleX(.025);background:conic-gradient(from 110deg at 50% 20%,transparent 0deg,#fff7dc00 12deg,#fff5cc66 18deg,#fff5cc00 27deg,#fff9df85 42deg,#fff8dc18 57deg,#fff9df70 69deg,#fff5cc00 80deg,#fff5cc66 108deg,#fff5cc00 125deg,transparent 140deg);-webkit-mask-image:radial-gradient(ellipse at 50% 20%,#000 0%,#000c 30%,transparent 67%);mask-image:radial-gradient(ellipse at 50% 20%,#000 0%,#000c 30%,transparent 67%);filter:blur(3px)}
+.entrance-bloom{position:absolute;inset:0;width:100%;height:100%;z-index:3;pointer-events:none;opacity:1;overflow:hidden}.entrance-bloom ellipse{opacity:0}
+#entrance[data-state=opening] .entrance-source{animation:entrance-source 2.8s ease-in-out both}
+#entrance[data-state=opening] .entrance-door.left{animation:entrance-leaf-left 2.8s ease-in-out both}
+#entrance[data-state=opening] .entrance-door.right{animation:entrance-leaf-right 2.8s ease-in-out both}
+#entrance[data-state=opening] .entrance-spill{animation:entrance-spill 2.8s cubic-bezier(.4,0,.2,1) both}
+#entrance[data-state=opening] .entrance-rays{animation:entrance-rays 2.8s cubic-bezier(.4,0,.2,1) both}
+#entrance[data-state=opening] .entrance-bloom ellipse{animation:entrance-light 2.8s cubic-bezier(.4,0,.2,1) both}
+#entrance[data-state=opening]{animation:entrance-arrive 2.8s ease-in-out both}
+#entrance[data-state=opening] .entrance-heading{transition:opacity .55s;opacity:0}
+#entrance[data-state=opening] .entrance-footer{visibility:hidden}
+@keyframes entrance-source{0%{opacity:.5}25%{opacity:.85}55%,100%{opacity:1}}
+@keyframes entrance-leaf-left{0%,6%{transform:rotateY(0);filter:brightness(1)}22%{transform:rotateY(-12deg);filter:brightness(1.08)}48%{transform:rotateY(-48deg);filter:brightness(1.2)}78%,100%{transform:rotateY(-90deg);filter:brightness(1.5)}}
+@keyframes entrance-leaf-right{0%,6%{transform:rotateY(0);filter:brightness(1)}22%{transform:rotateY(12deg);filter:brightness(1.08)}48%{transform:rotateY(48deg);filter:brightness(1.2)}78%,100%{transform:rotateY(90deg);filter:brightness(1.5)}}
+@keyframes entrance-spill{0%{opacity:0;transform:scaleX(.02)}18%{opacity:.25;transform:scaleX(.15)}48%{opacity:.8;transform:scaleX(.75)}75%,100%{opacity:1;transform:scaleX(1.5)}}
+@keyframes entrance-rays{0%{opacity:0;transform:scaleX(.025)}18%{opacity:.2;transform:scaleX(.15)}48%{opacity:.7;transform:scaleX(.65)}72%,100%{opacity:1;transform:scaleX(1.3)}}
+@keyframes entrance-light{0%{opacity:0;rx:3px;ry:190px}18%{opacity:.2;rx:20px;ry:210px}42%{opacity:.45;rx:110px;ry:260px}58%{opacity:.8;rx:260px;ry:360px}78%,100%{opacity:1;rx:2400px;ry:2400px}}
+@keyframes entrance-arrive{0%,83%{opacity:1}100%{opacity:0}}
+
+@media(min-aspect-ratio:1/1){.entrance-bloom ellipse{cx:680px;cy:597.5px}}
