@@ -1,11 +1,11 @@
 {
-  "version": "v74-web-qa-tools",
-  "builtAt": "2026-11-05T13:34:18.245202+09:00",
-  "sourceCommit": "82c86a21a26ec767c13048a41311e15dfc9d656d",
+  "version": "v75-web-qa-growth-limits",
+  "builtAt": "2026-11-05T15:42:32.090622+09:00",
+  "sourceCommit": "42f8fcfba1a2e813c962366d9a1f2870beb83627",
   "engine": "4.7.1.stable.official",
-  "pack": "game-v74-qa.pck",
-  "packBytes": 38762352,
-  "packSha256": "4c03c5879e6e0c22c3e4806ab8bfe1d7a13d33c29cc4c2e2f8722d1c72db588b",
+  "pack": "game-v75-qa.pck",
+  "packBytes": 38766300,
+  "packSha256": "396be506ee772a9f9aaff8dfe8fea5ef1f1c5a4391534b0e1ac7e473f987194a",
   "automaticRelicSkills": true,
   "relicSkillResourceCosts": false,
   "relicSkillCooldownOtherChains": 3,
@@ -25,5 +25,24 @@
   "rebirthStoneGrantButtons": [
     1000,
     10000
-  ]
+  ],
+  "growthLimit": {
+    "basis": "highest unlocked Rebirth tier",
+    "baseRanks": 3,
+    "ranksPerTier": 3,
+    "existingEffectsAndCostsUnchanged": true,
+    "legacyPurchasedRanksPreserved": true
+  },
+  "growthLimitTest": {
+    "tiers": [
+      0,
+      15
+    ],
+    "presets": [
+      "zero ranks",
+      "one rank below limit"
+    ],
+    "grantsPurchaseFunds": true,
+    "storage": "memory only; reload resets"
+  }
 }

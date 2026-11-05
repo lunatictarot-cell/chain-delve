@@ -1,11 +1,11 @@
 {
-  "version": "v73-automatic-relic-skills",
-  "builtAt": "2026-11-05T12:11:11.832784+09:00",
-  "sourceCommit": "e19a5e5012d0070c27a918caede413034f49e767",
+  "version": "v75-rebirth-growth-limits",
+  "builtAt": "2026-11-05T15:42:32.077751+09:00",
+  "sourceCommit": "42f8fcfba1a2e813c962366d9a1f2870beb83627",
   "engine": "4.7.1.stable.official",
-  "pack": "game-v73.pck",
-  "packBytes": 38753948,
-  "packSha256": "f3156fa453ba8fa182099a572c78fa9861e7858c9b818a09caa97bdd26468bd5",
+  "pack": "game-v75.pck",
+  "packBytes": 38766252,
+  "packSha256": "38ccc3b7fc32dbc523632c856411f466f1add6f14fc180162b6ee9139cf2425e",
   "automaticRelicSkills": true,
   "relicSkillResourceCosts": false,
   "relicSkillCooldownOtherChains": 3,
@@ -17,5 +17,12 @@
   "tierZeroAct5BossFloorNormalAttack": 3,
   "tierZeroAct5BossFloorEliteAttack": 7,
   "rebirthTestCheat": false,
-  "storage": "existing persistent /userfs"
+  "storage": "existing persistent /userfs",
+  "growthLimit": {
+    "basis": "highest unlocked Rebirth tier",
+    "baseRanks": 3,
+    "ranksPerTier": 3,
+    "existingEffectsAndCostsUnchanged": true,
+    "legacyPurchasedRanksPreserved": true
+  }
 }
