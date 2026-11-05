@@ -1,11 +1,11 @@
 {
-  "version": "v73-web-qa",
-  "builtAt": "2026-11-05T12:11:11.879348+09:00",
-  "sourceCommit": "e19a5e5012d0070c27a918caede413034f49e767",
+  "version": "v74-web-qa-tools",
+  "builtAt": "2026-11-05T13:34:18.245202+09:00",
+  "sourceCommit": "82c86a21a26ec767c13048a41311e15dfc9d656d",
   "engine": "4.7.1.stable.official",
-  "pack": "game-v73-qa.pck",
-  "packBytes": 38753996,
-  "packSha256": "b794804270e24b4122e4800885f69e2d931b53bf08714e5d7e7418cce01bc1a6",
+  "pack": "game-v74-qa.pck",
+  "packBytes": 38762352,
+  "packSha256": "4c03c5879e6e0c22c3e4806ab8bfe1d7a13d33c29cc4c2e2f8722d1c72db588b",
   "automaticRelicSkills": true,
   "relicSkillResourceCosts": false,
   "relicSkillCooldownOtherChains": 3,
@@ -17,5 +17,13 @@
   "tierZeroAct5BossFloorNormalAttack": 3,
   "tierZeroAct5BossFloorEliteAttack": 7,
   "rebirthTestCheat": true,
-  "storage": "memory-only"
+  "storage": "memory-only; reload resets grants, purchases and runs",
+  "relicPracticeChoices": 5,
+  "practiceRelicsGranted": true,
+  "selectedPairAutomaticallyEquipped": true,
+  "practiceBoardPrepared": true,
+  "rebirthStoneGrantButtons": [
+    1000,
+    10000
+  ]
 }
