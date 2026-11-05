@@ -1,11 +1,11 @@
 {
-  "version": "v75-web-qa-growth-limits",
-  "builtAt": "2026-11-05T15:42:32.090622+09:00",
-  "sourceCommit": "42f8fcfba1a2e813c962366d9a1f2870beb83627",
+  "version": "v76-web-qa-prayer-growth",
+  "builtAt": "2026-11-05T19:42:57.987208+09:00",
+  "sourceCommit": "00a157990cb5b042b5fb114d7c7780f8a22ccdc8",
   "engine": "4.7.1.stable.official",
-  "pack": "game-v75-qa.pck",
-  "packBytes": 38766300,
-  "packSha256": "396be506ee772a9f9aaff8dfe8fea5ef1f1c5a4391534b0e1ac7e473f987194a",
+  "pack": "game-v76-qa.pck",
+  "packBytes": 38771092,
+  "packSha256": "97b04417c6c65fc98270bca26aaa8c20b822ee54de7101fa293aaf310f72edd9",
   "automaticRelicSkills": true,
   "relicSkillResourceCosts": false,
   "relicSkillCooldownOtherChains": 3,
@@ -44,5 +44,25 @@
     ],
     "grantsPurchaseFunds": true,
     "storage": "memory only; reload resets"
+  },
+  "prayerCharge": {
+    "pointsPerCharge": 6,
+    "devotionCosts": [
+      6,
+      5,
+      4,
+      3
+    ],
+    "countsPotionPowerAtFullHP": true,
+    "maxHPIndependent": true,
+    "newNormalRunsOnly": true
+  },
+  "bossAccess": {
+    "tier": 0,
+    "act": 5,
+    "floor": 4,
+    "onSpawn": true,
+    "blockedBoards": 2,
+    "bossStatsUnchanged": true
   }
 }
