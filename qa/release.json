@@ -1,12 +1,21 @@
 {
-  "version": "v72-web-qa",
-  "sourceCommit": "729555d2ca49d47047ec0e349c0a10d1d9c2372c",
-  "gameplayCommit": "3f081ee370c192a12186fb107206b1f806a36469",
-  "features": [
-    "rebirth_test"
-  ],
-  "storage": "memory-only; persistentPaths=[]; no normal diagnostics writer",
-  "pack": "game-v72-qa.pck",
-  "bytes": 38735728,
-  "sha256": "19706c62c0492b55abe364528f12aaad190983391d23bf3704d1b340ecd2521d"
+  "version": "v73-web-qa",
+  "builtAt": "2026-11-05T12:11:11.879348+09:00",
+  "sourceCommit": "e19a5e5012d0070c27a918caede413034f49e767",
+  "engine": "4.7.1.stable.official",
+  "pack": "game-v73-qa.pck",
+  "packBytes": 38753996,
+  "packSha256": "b794804270e24b4122e4800885f69e2d931b53bf08714e5d7e7418cce01bc1a6",
+  "automaticRelicSkills": true,
+  "relicSkillResourceCosts": false,
+  "relicSkillCooldownOtherChains": 3,
+  "relicSkillCount": 5,
+  "newRunsOnly": true,
+  "legacySavesPreserved": true,
+  "mobileGoldForecastFixed": true,
+  "tierZeroAct3ReviveRatio": 0.35,
+  "tierZeroAct5BossFloorNormalAttack": 3,
+  "tierZeroAct5BossFloorEliteAttack": 7,
+  "rebirthTestCheat": true,
+  "storage": "memory-only"
 }
