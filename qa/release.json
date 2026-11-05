@@ -1,11 +1,11 @@
 {
-  "version": "v76-web-qa-prayer-growth",
-  "builtAt": "2026-11-05T19:42:57.987208+09:00",
-  "sourceCommit": "00a157990cb5b042b5fb114d7c7780f8a22ccdc8",
+  "version": "v77-web-qa-rage-and-forge",
+  "builtAt": "2026-11-05T20:31:43.494193+09:00",
+  "sourceCommit": "e69b3e5f27429e9e4bf17df787a71b41129bc17d",
   "engine": "4.7.1.stable.official",
-  "pack": "game-v76-qa.pck",
-  "packBytes": 38771092,
-  "packSha256": "97b04417c6c65fc98270bca26aaa8c20b822ee54de7101fa293aaf310f72edd9",
+  "pack": "game-v77-qa.pck",
+  "packBytes": 38781404,
+  "packSha256": "0a57ef8ed5af04f59ad73e3ea510be2e57cd65cf50da8a9d1e86919f3b9ed60b",
   "automaticRelicSkills": true,
   "relicSkillResourceCosts": false,
   "relicSkillCooldownOtherChains": 3,
@@ -64,5 +64,32 @@
     "onSpawn": true,
     "blockedBoards": 2,
     "bossStatsUnchanged": true
+  },
+  "berserkerCharge": {
+    "enemyAttackPerCharge": 6,
+    "trainingCosts": [
+      6,
+      5,
+      4,
+      3
+    ],
+    "beforeArmorAndDamageReduction": true,
+    "countsBeforeHeavyGuard": true,
+    "excludesPoisonPressureAndSelfCosts": true,
+    "newNormalRunsOnly": true
+  },
+  "shieldForge": {
+    "pointsPerTile": 1,
+    "threshold": 12,
+    "independentOfArmorAndRepair": true,
+    "legacyRunsPreserved": true
+  },
+  "growthCombatQA": {
+    "class": "berserker",
+    "presets": [
+      "HP 48 Armor 0/18",
+      "HP 96 Armor 60/60"
+    ],
+    "memoryOnly": true
   }
 }
