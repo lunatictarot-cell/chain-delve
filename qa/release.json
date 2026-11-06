@@ -1,11 +1,11 @@
 {
-  "version": "v77-web-qa-rage-and-forge",
-  "builtAt": "2026-11-05T20:31:43.494193+09:00",
-  "sourceCommit": "e69b3e5f27429e9e4bf17df787a71b41129bc17d",
+  "version": "v78-web-qa-cracked-coin-visual",
+  "builtAt": "2026-11-06T15:13:52.721925+00:00",
+  "sourceCommit": "f9f451a4de46d74bb5bb14e930fda7a32cf1c30e",
   "engine": "4.7.1.stable.official",
-  "pack": "game-v77-qa.pck",
-  "packBytes": 38781404,
-  "packSha256": "0a57ef8ed5af04f59ad73e3ea510be2e57cd65cf50da8a9d1e86919f3b9ed60b",
+  "pack": "game-v78-qa.pck",
+  "packBytes": 38798828,
+  "packSha256": "5ef5df3494563182a4069b7d78dbcc36f76c20bedf50c67da02ad23a356569bc",
   "automaticRelicSkills": true,
   "relicSkillResourceCosts": false,
   "relicSkillCooldownOtherChains": 3,
@@ -91,5 +91,13 @@
       "HP 96 Armor 60/60"
     ],
     "memoryOnly": true
-  }
+  },
+  "crackedCoinVisual": {
+    "overlay": true,
+    "allFiveThemes": true,
+    "urgentFinalTurn": true,
+    "tapExplanation": true,
+    "rulesUnchanged": true
+  },
+  "qaAutomaticTutorial": false
 }
