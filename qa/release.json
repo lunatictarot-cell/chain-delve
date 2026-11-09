@@ -1,11 +1,11 @@
 {
-  "version": "v79-web-qa-rebirth-progression",
-  "builtAt": "2026-11-09T10:06:48.532058+00:00",
-  "sourceCommit": "917e7ca974b2a82674a53888a432f44454a46dc1",
+  "version": "v80-web-qa-max-upgrade-comparison",
+  "builtAt": "2026-11-09T11:49:58.028975+00:00",
+  "sourceCommit": "a448a0072ca898a10bedbb4e2d9b668118dc847e",
   "engine": "4.7.1.stable.official",
-  "pack": "game-v79-qa.pck",
-  "packBytes": 38868108,
-  "packSha256": "86e5a2fb5df67e09aaced5d45dd9739eb6cf8d772a5a9d0020965cf1d4f97fe7",
+  "pack": "game-v80-qa.pck",
+  "packBytes": 38870668,
+  "packSha256": "d0f4f5d29ab5e47afd9294a7a2e513d084ca0ac9090b1902471cb7cea4889de5",
   "automaticRelicSkills": true,
   "relicSkillResourceCosts": false,
   "relicSkillCooldownOtherChains": 3,
@@ -99,5 +99,16 @@
   "qaAutomaticTutorial": false,
   "unknownFutureRebirth": true,
   "openEndedRebirth": true,
-  "battleRuleIcons": true
+  "battleRuleIcons": true,
+  "maxUpgradeComparison": {
+    "tiers": [
+      7,
+      10,
+      15,
+      16
+    ],
+    "sameClass": true,
+    "sharedSeed": true,
+    "sessionOnly": true
+  }
 }
