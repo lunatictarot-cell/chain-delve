@@ -1,11 +1,11 @@
 {
-  "version": "v78-web-qa-cracked-coin-visual",
-  "builtAt": "2026-11-06T15:13:52.721925+00:00",
-  "sourceCommit": "f9f451a4de46d74bb5bb14e930fda7a32cf1c30e",
+  "version": "v79-web-qa-rebirth-progression",
+  "builtAt": "2026-11-09T10:06:48.532058+00:00",
+  "sourceCommit": "917e7ca974b2a82674a53888a432f44454a46dc1",
   "engine": "4.7.1.stable.official",
-  "pack": "game-v78-qa.pck",
-  "packBytes": 38798828,
-  "packSha256": "5ef5df3494563182a4069b7d78dbcc36f76c20bedf50c67da02ad23a356569bc",
+  "pack": "game-v79-qa.pck",
+  "packBytes": 38868108,
+  "packSha256": "86e5a2fb5df67e09aaced5d45dd9739eb6cf8d772a5a9d0020965cf1d4f97fe7",
   "automaticRelicSkills": true,
   "relicSkillResourceCosts": false,
   "relicSkillCooldownOtherChains": 3,
@@ -34,16 +34,13 @@
     "legacyPurchasedRanksPreserved": true
   },
   "growthLimitTest": {
-    "tiers": [
-      0,
-      15
-    ],
     "presets": [
       "zero ranks",
       "one rank below limit"
     ],
     "grantsPurchaseFunds": true,
-    "storage": "memory only; reload resets"
+    "storage": "memory only; reload resets",
+    "numericTierInput": true
   },
   "prayerCharge": {
     "pointsPerCharge": 6,
@@ -99,5 +96,8 @@
     "tapExplanation": true,
     "rulesUnchanged": true
   },
-  "qaAutomaticTutorial": false
+  "qaAutomaticTutorial": false,
+  "unknownFutureRebirth": true,
+  "openEndedRebirth": true,
+  "battleRuleIcons": true
 }
