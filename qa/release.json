@@ -1,11 +1,11 @@
 {
-  "version": "v84-web-qa-entrance-audio-skin-feel",
-  "builtAt": "2026-11-10T08:39:59.453499+00:00",
-  "sourceCommit": "281720b0b7bbb7e8e0c51dd9083dbeb81c08bdb6",
+  "version": "v85-web-qa-skin-sound-retune",
+  "builtAt": "2026-11-10T12:21:55.541693+00:00",
+  "sourceCommit": "b8a6480336cb73d871f77d0bc2b03571ee8d83e9",
   "engine": "4.7.1.stable.official",
-  "pack": "game-v84-qa.pck",
+  "pack": "game-v85-qa.pck",
   "packBytes": 39176612,
-  "packSha256": "12f38db892d3127f5994aac6a8115564f5f79ab9511bffd8770c6e7ffa5e6e18",
+  "packSha256": "008a16745923824021b51c8f82c605647aa0e8459c0b93a76e1943745d96f780",
   "automaticRelicSkills": true,
   "relicSkillResourceCosts": false,
   "relicSkillCooldownOtherChains": 3,
@@ -156,7 +156,9 @@
     ],
     "ownTileSoundsPerSkin": 6,
     "homeBackdropFollowsTheme": true,
-    "addedArtAssets": 0
+    "addedArtAssets": 0,
+    "ownTileSoundsRetuned": 9,
+    "listeningReview": "pending"
   },
   "webAudio": {
     "streamOutputLatencyMs": 100,
