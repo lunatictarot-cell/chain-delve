@@ -1,11 +1,11 @@
 {
-  "version": "v83-web-qa-growth-cost-skin-feel",
-  "builtAt": "2026-11-10T07:25:05.322863+00:00",
-  "sourceCommit": "880606b98371e0e3b1e9b06889fb3fea864675e9",
+  "version": "v84-web-qa-entrance-audio-skin-feel",
+  "builtAt": "2026-11-10T08:39:59.453499+00:00",
+  "sourceCommit": "281720b0b7bbb7e8e0c51dd9083dbeb81c08bdb6",
   "engine": "4.7.1.stable.official",
-  "pack": "game-v83-qa.pck",
-  "packBytes": 38879604,
-  "packSha256": "5630d2765c77be432ebbd3cacc891216b472b62c5d212b1695316b8dfa888a7b",
+  "pack": "game-v84-qa.pck",
+  "packBytes": 39176612,
+  "packSha256": "12f38db892d3127f5994aac6a8115564f5f79ab9511bffd8770c6e7ffa5e6e18",
   "automaticRelicSkills": true,
   "relicSkillResourceCosts": false,
   "relicSkillCooldownOtherChains": 3,
@@ -143,8 +143,25 @@
   },
   "unlockRevealSeconds": 1.1,
   "skinFeelPrototype": {
-    "tileSkin": "cat",
-    "theme": "frost",
-    "addedAssets": 0
-  }
+    "tileSkins": [
+      "cat",
+      "stitch",
+      "alabaster",
+      "inlay"
+    ],
+    "themes": [
+      "crimson",
+      "frost",
+      "verdant"
+    ],
+    "ownTileSoundsPerSkin": 6,
+    "homeBackdropFollowsTheme": true,
+    "addedArtAssets": 0
+  },
+  "webAudio": {
+    "streamOutputLatencyMs": 100,
+    "samplePlayback": "title music only",
+    "ritualCuesRingOut": true
+  },
+  "entranceWideLayout": "centred column"
 }
