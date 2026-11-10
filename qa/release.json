@@ -1,11 +1,11 @@
 {
-  "version": "v82-web-qa-title-audio",
-  "builtAt": "2026-11-09T14:22:24.919638+00:00",
-  "sourceCommit": "2e94e22d9caeced36b2b24f82a8cb3431b870885",
+  "version": "v83-web-qa-growth-cost-skin-feel",
+  "builtAt": "2026-11-10T07:25:05.322863+00:00",
+  "sourceCommit": "880606b98371e0e3b1e9b06889fb3fea864675e9",
   "engine": "4.7.1.stable.official",
-  "pack": "game-v82-qa.pck",
-  "packBytes": 38873788,
-  "packSha256": "fb7b417e6429ac8c3695fa5e238f9045a519308ef50a748e8fc0413e601b1415",
+  "pack": "game-v83-qa.pck",
+  "packBytes": 38879604,
+  "packSha256": "5630d2765c77be432ebbd3cacc891216b472b62c5d212b1695316b8dfa888a7b",
   "automaticRelicSkills": true,
   "relicSkillResourceCosts": false,
   "relicSkillCooldownOtherChains": 3,
@@ -30,8 +30,9 @@
     "basis": "highest unlocked Rebirth tier",
     "baseRanks": 3,
     "ranksPerTier": 3,
-    "existingEffectsAndCostsUnchanged": true,
-    "legacyPurchasedRanksPreserved": true
+    "existingEffectsAndCostsUnchanged": false,
+    "legacyPurchasedRanksPreserved": true,
+    "effectsUnchanged": true
   },
   "growthLimitTest": {
     "presets": [
@@ -110,5 +111,40 @@
     "sameClass": true,
     "sharedSeed": true,
     "sessionOnly": true
+  },
+  "growthCosts": {
+    "vitality": {
+      "steps": [
+        18,
+        120,
+        200
+      ],
+      "repeatStart": 204,
+      "repeatStep": 4
+    },
+    "bulwark": {
+      "steps": [
+        20,
+        140,
+        220
+      ],
+      "repeatStart": 224,
+      "repeatStep": 4
+    },
+    "edge": {
+      "steps": [
+        220
+      ],
+      "repeatStart": 224,
+      "repeatStep": 4
+    },
+    "allThreeRank51Total": 46606,
+    "pastPurchasesNotRepriced": true
+  },
+  "unlockRevealSeconds": 1.1,
+  "skinFeelPrototype": {
+    "tileSkin": "cat",
+    "theme": "frost",
+    "addedAssets": 0
   }
 }
