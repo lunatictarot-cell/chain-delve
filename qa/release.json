@@ -1,11 +1,11 @@
 {
-  "version": "v85-web-qa-skin-sound-retune",
-  "builtAt": "2026-11-10T12:21:55.541693+00:00",
-  "sourceCommit": "b8a6480336cb73d871f77d0bc2b03571ee8d83e9",
+  "version": "v86-web-qa-phone-feedback-relic-efficiency",
+  "builtAt": "2026-11-11T06:07:47.945150+00:00",
+  "sourceCommit": "7b33871a125684c142fb4b92d01c3a2177dbfa0a",
   "engine": "4.7.1.stable.official",
-  "pack": "game-v85-qa.pck",
-  "packBytes": 39176612,
-  "packSha256": "008a16745923824021b51c8f82c605647aa0e8459c0b93a76e1943745d96f780",
+  "pack": "game-v86-qa.pck",
+  "packBytes": 39194648,
+  "packSha256": "51ec08edcb0f8d26928e59c20ebec5dba3a8da653943076350262ab71327541f",
   "automaticRelicSkills": true,
   "relicSkillResourceCosts": false,
   "relicSkillCooldownOtherChains": 3,
@@ -116,8 +116,8 @@
     "vitality": {
       "steps": [
         18,
-        120,
-        200
+        60,
+        120
       ],
       "repeatStart": 204,
       "repeatStep": 4
@@ -125,8 +125,8 @@
     "bulwark": {
       "steps": [
         20,
-        140,
-        220
+        70,
+        140
       ],
       "repeatStart": 224,
       "repeatStep": 4
@@ -162,8 +162,35 @@
   },
   "webAudio": {
     "streamOutputLatencyMs": 100,
-    "samplePlayback": "title music only",
-    "ritualCuesRingOut": true
+    "samplePlayback": "none",
+    "ritualCuesRingOut": true,
+    "sfxHeadroomDb": -10,
+    "masterLimiterDb": -1,
+    "musicResumesAfterShortInterruptions": true
   },
-  "entranceWideLayout": "centred column"
+  "entranceWideLayout": "centred column",
+  "idleBattleRedraws": "none on the default theme; 15 fps with theme particles",
+  "relicSlots": 4,
+  "workshopOnlyWhenAwakenable": true,
+  "continueOnAnotherDevice": {
+    "format": "DR1",
+    "carries": "account progress, books, look",
+    "excludes": "expedition in progress",
+    "server": "none"
+  },
+  "relicSkillValues": {
+    "counter": 6,
+    "remedy": 12,
+    "goldstrike": 8,
+    "coinforge": 3,
+    "bladeremedy": 4
+  },
+  "surplus": {
+    "wastedHealPerPoint": 2,
+    "wastedRepairPerPoint": 1,
+    "cap": 8,
+    "spentBy": "next attack that reaches an enemy",
+    "newNormalRunsOnly": true
+  },
+  "rewardCardNamesRelicSkill": true
 }

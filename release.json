@@ -1,11 +1,11 @@
 {
-  "version": "v76-prayer-growth-and-boss-access",
-  "builtAt": "2026-11-05T19:42:57.979063+09:00",
-  "sourceCommit": "00a157990cb5b042b5fb114d7c7780f8a22ccdc8",
+  "version": "v86-phone-feedback-relic-efficiency",
+  "builtAt": "2026-11-11T06:07:47.945150+00:00",
+  "sourceCommit": "7b33871a125684c142fb4b92d01c3a2177dbfa0a",
   "engine": "4.7.1.stable.official",
-  "pack": "game-v76.pck",
-  "packBytes": 38771044,
-  "packSha256": "bd4eeff1ee6ed38c98a0cf2aa0a7434c0efdea8834177646553fd4a9ff3ad45a",
+  "pack": "game-v86.pck",
+  "packBytes": 39194600,
+  "packSha256": "7f31d67d4da0e2d600d8e705c12df6b97b73acf75496bf4ab2e03546109bb565",
   "automaticRelicSkills": true,
   "relicSkillResourceCosts": false,
   "relicSkillCooldownOtherChains": 3,
@@ -22,8 +22,9 @@
     "basis": "highest unlocked Rebirth tier",
     "baseRanks": 3,
     "ranksPerTier": 3,
-    "existingEffectsAndCostsUnchanged": true,
-    "legacyPurchasedRanksPreserved": true
+    "existingEffectsAndCostsUnchanged": false,
+    "legacyPurchasedRanksPreserved": true,
+    "effectsUnchanged": true
   },
   "prayerCharge": {
     "pointsPerCharge": 6,
@@ -44,5 +45,121 @@
     "onSpawn": true,
     "blockedBoards": 2,
     "bossStatsUnchanged": true
+  },
+  "berserkerCharge": {
+    "enemyAttackPerCharge": 6,
+    "trainingCosts": [
+      6,
+      5,
+      4,
+      3
+    ],
+    "beforeArmorAndDamageReduction": true,
+    "countsBeforeHeavyGuard": true,
+    "excludesPoisonPressureAndSelfCosts": true,
+    "newNormalRunsOnly": true
+  },
+  "shieldForge": {
+    "pointsPerTile": 1,
+    "threshold": 12,
+    "independentOfArmorAndRepair": true,
+    "legacyRunsPreserved": true
+  },
+  "crackedCoinVisual": {
+    "overlay": true,
+    "allFiveThemes": true,
+    "urgentFinalTurn": true,
+    "tapExplanation": true,
+    "rulesUnchanged": true
+  },
+  "unknownFutureRebirth": true,
+  "openEndedRebirth": true,
+  "battleRuleIcons": true,
+  "growthCosts": {
+    "vitality": {
+      "steps": [
+        18,
+        60,
+        120
+      ],
+      "repeatStart": 204,
+      "repeatStep": 4
+    },
+    "bulwark": {
+      "steps": [
+        20,
+        70,
+        140
+      ],
+      "repeatStart": 224,
+      "repeatStep": 4
+    },
+    "edge": {
+      "steps": [
+        220
+      ],
+      "repeatStart": 224,
+      "repeatStep": 4
+    },
+    "allThreeRank51Total": 46606,
+    "pastPurchasesNotRepriced": true
+  },
+  "unlockRevealSeconds": 1.1,
+  "skinFeelPrototype": {
+    "tileSkins": [
+      "cat",
+      "stitch",
+      "alabaster",
+      "inlay"
+    ],
+    "themes": [
+      "crimson",
+      "frost",
+      "verdant"
+    ],
+    "ownTileSoundsPerSkin": 6,
+    "homeBackdropFollowsTheme": true,
+    "addedArtAssets": 0,
+    "ownTileSoundsRetuned": 9,
+    "listeningReview": "pending"
+  },
+  "webAudio": {
+    "streamOutputLatencyMs": 100,
+    "samplePlayback": "none",
+    "ritualCuesRingOut": true,
+    "sfxHeadroomDb": -10,
+    "masterLimiterDb": -1,
+    "musicResumesAfterShortInterruptions": true
+  },
+  "entranceWideLayout": "centred column",
+  "idleBattleRedraws": "none on the default theme; 15 fps with theme particles",
+  "relicSlots": 4,
+  "workshopOnlyWhenAwakenable": true,
+  "continueOnAnotherDevice": {
+    "format": "DR1",
+    "carries": "account progress, books, look",
+    "excludes": "expedition in progress",
+    "server": "none"
+  },
+  "relicSkillValues": {
+    "counter": 6,
+    "remedy": 12,
+    "goldstrike": 8,
+    "coinforge": 3,
+    "bladeremedy": 4
+  },
+  "surplus": {
+    "wastedHealPerPoint": 2,
+    "wastedRepairPerPoint": 1,
+    "cap": 8,
+    "spentBy": "next attack that reaches an enemy",
+    "newNormalRunsOnly": true
+  },
+  "rewardCardNamesRelicSkill": true,
+  "previousMainVersion": "v76-prayer-growth-and-boss-access",
+  "savesFromPreviousMain": {
+    "accountProgress": "kept",
+    "expeditionInProgress": "continues",
+    "checkedIn": "one browser profile, V76 then V86"
   }
 }

@@ -1,16 +1,17 @@
 <!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>던전 단골 · Dungeon Regular</title>
 <link rel="icon" href="index.icon.png"><link rel="apple-touch-icon" href="index.apple-touch-icon.png">
-<link rel="stylesheet" href="entrance.css?v=76">
+<link rel="stylesheet" href="entrance.css?v=86">
 <style>html,body{margin:0;background:#101e25;color:#fff;overflow:hidden}body{position:fixed;inset:0;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);touch-action:none}canvas{display:block;outline:none}</style></head>
 <body><canvas id="canvas" tabindex="0"></canvas><div id="entrance" role="region" aria-label="Dungeon entrance"></div><noscript>게임을 시작하려면 JavaScript를 켜 주세요.</noscript>
-<script src="entrance.js?v=76"></script>
-<script src="audio-gate.js?v=76"></script>
-<script src="runtime-diagnostics.js?v=76"></script>
-<script src="visible-viewport.js?v=76"></script>
+<script src="entrance.js?v=86"></script>
+<script src="audio-gate.js?v=86"></script>
+<script src="runtime-diagnostics.js?v=86"></script>
+<script src="visible-viewport.js?v=86"></script>
+<script src="transfer.js?v=86"></script>
 <script src="index.js" onerror="window.ChainDelveEntrance.fail()"></script>
 <script>
-const GODOT_CONFIG={"args": [], "canvasResizePolicy": 0, "ensureCrossOriginIsolationHeaders": false, "executable": "index", "mainPack": "game-v76.pck", "focusCanvas": false, "persistentPaths": ["/userfs"], "fileSizes": {"index.wasm": 39513091, "game-v76.pck": 38771044}};
+const GODOT_CONFIG={"args": [], "canvasResizePolicy": 0, "ensureCrossOriginIsolationHeaders": false, "executable": "index", "mainPack": "game-v86.pck", "focusCanvas": false, "persistentPaths": ["/userfs"], "fileSizes": {"index.wasm": 39513091, "game-v86.pck": 39194600}};
 (async()=>{
   try {
     if(!window.Engine || Engine.getMissingFeatures({threads:false}).length)throw new Error('Unsupported runtime');
