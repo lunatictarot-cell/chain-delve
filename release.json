@@ -1,11 +1,11 @@
 {
-  "version": "v88-landscape-layout",
-  "builtAt": "2026-11-12T05:25:13.872150+00:00",
-  "sourceCommit": "875a309d4f61cccf4cb6fb23a8c3a32d631c44bb",
+  "version": "v89-landscape-touch-fix",
+  "builtAt": "2026-11-12T06:52:28.957092+00:00",
+  "sourceCommit": "afbd3c89f36e3d97a072846a3ce342c20dc90ba7",
   "engine": "4.7.1.stable.official",
-  "pack": "game-v88.pck",
-  "packBytes": 39199512,
-  "packSha256": "8999cdc7ed55159bf7116c32f24771262e9b446e8d79d23b821ddeeca76fe235",
+  "pack": "game-v89.pck",
+  "packBytes": 39200008,
+  "packSha256": "9220ba67650e605353a78b427f5a1021617527e08380c7a2df41789affb7ef53",
   "automaticRelicSkills": true,
   "relicSkillResourceCosts": false,
   "relicSkillCooldownOtherChains": 3,
@@ -156,11 +156,11 @@
     "newNormalRunsOnly": true
   },
   "rewardCardNamesRelicSkill": true,
-  "previousMainVersion": "v87-idle-cpu-fix",
+  "previousMainVersion": "v88-landscape-layout",
   "savesFromPreviousMain": {
     "accountProgress": "kept",
     "expeditionInProgress": "continues",
-    "checkedIn": "one browser profile, V87 then V88"
+    "checkedIn": "one browser profile, V88 then V89"
   },
   "framePacing": {
     "gameFramesPerSecond": 30,
@@ -177,15 +177,20 @@
     "sidePanelsScrollInsteadOfGrowing": true,
     "equipmentPopupTwoColumnsInLandscape": true,
     "noticeTextOnDarkPlate": true,
-    "portraitColumnFitsShortScreens": "shrinks to 0.8 at most",
+    "portraitColumnFitsShortScreens": "shrinks to 0.8 at most, never while a chain is drawn",
+    "sidePanelButtonsPressOncePerTouch": true,
     "audit": {
       "windowSizes": 7,
       "states": 1120,
       "problems": 0,
-      "buttonCrawlStates": 366,
-      "buttonCrawlProblems": 0
+      "buttonCrawlStates": 364,
+      "buttonCrawlProblems": 0,
+      "portraitScaleAndTouchStates": 266,
+      "portraitScaleAndTouchProblems": 0,
+      "countsHiddenScrollOverflow": true
     },
-    "notFinishedAtRelease": "before/after comparison of the older UI tests (20 of 59 compared, identical), check.ps1, independent review",
+    "checkedAtRelease": "check.ps1 passed; older UI tests identical before and after on 43, the other 16 pass; independent review applied",
+    "knownNotFixed": "buttons inside the other scrolling popups are pressed twice per touch (older than V88)",
     "rulesAndSavesUnchanged": true
   }
 }
