@@ -1,11 +1,11 @@
 {
-  "version": "v87-web-qa-idle-cpu-fix",
-  "builtAt": "2026-11-12T01:07:44.387494+00:00",
-  "sourceCommit": "838041ecd0e2794f930fff42ad2ec9300efd2ceb",
+  "version": "v88-web-qa-landscape-layout",
+  "builtAt": "2026-11-12T05:25:13.872150+00:00",
+  "sourceCommit": "875a309d4f61cccf4cb6fb23a8c3a32d631c44bb",
   "engine": "4.7.1.stable.official",
-  "pack": "game-v87-qa.pck",
-  "packBytes": 39194712,
-  "packSha256": "868a21c309b782488bf54e7e852de81b7ec752aacdf1db80ba34452294eea8c4",
+  "pack": "game-v88-qa.pck",
+  "packBytes": 39199560,
+  "packSha256": "fcd447a15106aa07ce0b6c9a77c148857f6420f98cbfb4c1e1747a7335539657",
   "automaticRelicSkills": true,
   "relicSkillResourceCosts": false,
   "relicSkillCooldownOtherChains": 3,
@@ -202,5 +202,21 @@
       "after": 7.4,
       "measuredIn": "headless Chrome"
     }
+  },
+  "layout": {
+    "landscapeBoardStaysStill": true,
+    "sidePanelsScrollInsteadOfGrowing": true,
+    "equipmentPopupTwoColumnsInLandscape": true,
+    "noticeTextOnDarkPlate": true,
+    "portraitColumnFitsShortScreens": "shrinks to 0.8 at most",
+    "audit": {
+      "windowSizes": 7,
+      "states": 1120,
+      "problems": 0,
+      "buttonCrawlStates": 366,
+      "buttonCrawlProblems": 0
+    },
+    "notFinishedAtRelease": "before/after comparison of the older UI tests (20 of 59 compared, identical), check.ps1, independent review",
+    "rulesAndSavesUnchanged": true
   }
 }

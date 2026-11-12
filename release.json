@@ -1,11 +1,11 @@
 {
-  "version": "v87-idle-cpu-fix",
-  "builtAt": "2026-11-12T01:07:44.387494+00:00",
-  "sourceCommit": "838041ecd0e2794f930fff42ad2ec9300efd2ceb",
+  "version": "v88-landscape-layout",
+  "builtAt": "2026-11-12T05:25:13.872150+00:00",
+  "sourceCommit": "875a309d4f61cccf4cb6fb23a8c3a32d631c44bb",
   "engine": "4.7.1.stable.official",
-  "pack": "game-v87.pck",
-  "packBytes": 39194664,
-  "packSha256": "c6456152c9f81b728f190d41724dbae460bfe8572aca46124d4c3e136586717f",
+  "pack": "game-v88.pck",
+  "packBytes": 39199512,
+  "packSha256": "8999cdc7ed55159bf7116c32f24771262e9b446e8d79d23b821ddeeca76fe235",
   "automaticRelicSkills": true,
   "relicSkillResourceCosts": false,
   "relicSkillCooldownOtherChains": 3,
@@ -156,11 +156,11 @@
     "newNormalRunsOnly": true
   },
   "rewardCardNamesRelicSkill": true,
-  "previousMainVersion": "v86-phone-feedback-relic-efficiency",
+  "previousMainVersion": "v87-idle-cpu-fix",
   "savesFromPreviousMain": {
     "accountProgress": "kept",
     "expeditionInProgress": "continues",
-    "checkedIn": "one browser profile, V76 then V86 then V87"
+    "checkedIn": "one browser profile, V87 then V88"
   },
   "framePacing": {
     "gameFramesPerSecond": 30,
@@ -171,5 +171,21 @@
       "after": 7.4,
       "measuredIn": "headless Chrome"
     }
+  },
+  "layout": {
+    "landscapeBoardStaysStill": true,
+    "sidePanelsScrollInsteadOfGrowing": true,
+    "equipmentPopupTwoColumnsInLandscape": true,
+    "noticeTextOnDarkPlate": true,
+    "portraitColumnFitsShortScreens": "shrinks to 0.8 at most",
+    "audit": {
+      "windowSizes": 7,
+      "states": 1120,
+      "problems": 0,
+      "buttonCrawlStates": 366,
+      "buttonCrawlProblems": 0
+    },
+    "notFinishedAtRelease": "before/after comparison of the older UI tests (20 of 59 compared, identical), check.ps1, independent review",
+    "rulesAndSavesUnchanged": true
   }
 }
