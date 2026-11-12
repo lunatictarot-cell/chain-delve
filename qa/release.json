@@ -1,11 +1,11 @@
 {
-  "version": "v86-web-qa-phone-feedback-relic-efficiency",
-  "builtAt": "2026-11-11T06:07:47.945150+00:00",
-  "sourceCommit": "7b33871a125684c142fb4b92d01c3a2177dbfa0a",
+  "version": "v87-web-qa-idle-cpu-fix",
+  "builtAt": "2026-11-12T01:07:44.387494+00:00",
+  "sourceCommit": "838041ecd0e2794f930fff42ad2ec9300efd2ceb",
   "engine": "4.7.1.stable.official",
-  "pack": "game-v86-qa.pck",
-  "packBytes": 39194648,
-  "packSha256": "51ec08edcb0f8d26928e59c20ebec5dba3a8da653943076350262ab71327541f",
+  "pack": "game-v87-qa.pck",
+  "packBytes": 39194712,
+  "packSha256": "868a21c309b782488bf54e7e852de81b7ec752aacdf1db80ba34452294eea8c4",
   "automaticRelicSkills": true,
   "relicSkillResourceCosts": false,
   "relicSkillCooldownOtherChains": 3,
@@ -192,5 +192,15 @@
     "spentBy": "next attack that reaches an enemy",
     "newNormalRunsOnly": true
   },
-  "rewardCardNamesRelicSkill": true
+  "rewardCardNamesRelicSkill": true,
+  "framePacing": {
+    "gameFramesPerSecond": 30,
+    "by": "frame-pace.js skips display frames",
+    "engineFrameCapOnWeb": false,
+    "idleMainThreadPercent": {
+      "before": 100,
+      "after": 7.4,
+      "measuredIn": "headless Chrome"
+    }
+  }
 }

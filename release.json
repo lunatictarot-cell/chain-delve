@@ -1,11 +1,11 @@
 {
-  "version": "v86-phone-feedback-relic-efficiency",
-  "builtAt": "2026-11-11T06:07:47.945150+00:00",
-  "sourceCommit": "7b33871a125684c142fb4b92d01c3a2177dbfa0a",
+  "version": "v87-idle-cpu-fix",
+  "builtAt": "2026-11-12T01:07:44.387494+00:00",
+  "sourceCommit": "838041ecd0e2794f930fff42ad2ec9300efd2ceb",
   "engine": "4.7.1.stable.official",
-  "pack": "game-v86.pck",
-  "packBytes": 39194600,
-  "packSha256": "7f31d67d4da0e2d600d8e705c12df6b97b73acf75496bf4ab2e03546109bb565",
+  "pack": "game-v87.pck",
+  "packBytes": 39194664,
+  "packSha256": "c6456152c9f81b728f190d41724dbae460bfe8572aca46124d4c3e136586717f",
   "automaticRelicSkills": true,
   "relicSkillResourceCosts": false,
   "relicSkillCooldownOtherChains": 3,
@@ -156,10 +156,20 @@
     "newNormalRunsOnly": true
   },
   "rewardCardNamesRelicSkill": true,
-  "previousMainVersion": "v76-prayer-growth-and-boss-access",
+  "previousMainVersion": "v86-phone-feedback-relic-efficiency",
   "savesFromPreviousMain": {
     "accountProgress": "kept",
     "expeditionInProgress": "continues",
-    "checkedIn": "one browser profile, V76 then V86"
+    "checkedIn": "one browser profile, V76 then V86 then V87"
+  },
+  "framePacing": {
+    "gameFramesPerSecond": 30,
+    "by": "frame-pace.js skips display frames",
+    "engineFrameCapOnWeb": false,
+    "idleMainThreadPercent": {
+      "before": 100,
+      "after": 7.4,
+      "measuredIn": "headless Chrome"
+    }
   }
 }
