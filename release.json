@@ -1,11 +1,11 @@
 {
-  "version": "v89-landscape-touch-fix",
-  "builtAt": "2026-11-12T06:52:28.957092+00:00",
-  "sourceCommit": "afbd3c89f36e3d97a072846a3ce342c20dc90ba7",
+  "version": "v90-scroll-touch-fix",
+  "builtAt": "2026-11-12T07:58:06.866264+00:00",
+  "sourceCommit": "a6249b807facb8eb827e007610b36389affc9f29",
   "engine": "4.7.1.stable.official",
-  "pack": "game-v89.pck",
-  "packBytes": 39200008,
-  "packSha256": "9220ba67650e605353a78b427f5a1021617527e08380c7a2df41789affb7ef53",
+  "pack": "game-v90.pck",
+  "packBytes": 39200216,
+  "packSha256": "a7757ab184c894806618788a35a9bdba57444d6a04633f08dcbb31fd161b4d71",
   "automaticRelicSkills": true,
   "relicSkillResourceCosts": false,
   "relicSkillCooldownOtherChains": 3,
@@ -156,11 +156,11 @@
     "newNormalRunsOnly": true
   },
   "rewardCardNamesRelicSkill": true,
-  "previousMainVersion": "v88-landscape-layout",
+  "previousMainVersion": "v89-landscape-touch-fix",
   "savesFromPreviousMain": {
     "accountProgress": "kept",
     "expeditionInProgress": "continues",
-    "checkedIn": "one browser profile, V88 then V89"
+    "checkedIn": "one browser profile, V89 then V90"
   },
   "framePacing": {
     "gameFramesPerSecond": 30,
@@ -190,7 +190,23 @@
       "countsHiddenScrollOverflow": true
     },
     "checkedAtRelease": "check.ps1 passed; older UI tests identical before and after on 43, the other 16 pass; independent review applied",
-    "knownNotFixed": "buttons inside the other scrolling popups are pressed twice per touch (older than V88)",
+    "rulesAndSavesUnchanged": true
+  },
+  "touch": {
+    "emulatedClickDroppedInScrollAreas": true,
+    "swipeNoLongerPressesTheButtonUnderIt": true,
+    "realTouchCrawl": {
+      "buttons": 753,
+      "pressedTwice": 0,
+      "notPressed": 0,
+      "windowSizes": [
+        "1280x720",
+        "390x844"
+      ]
+    },
+    "portraitScaleAndSidePanelStates": 266,
+    "checkedAtRelease": "check.ps1 passed; touch_scroll_tests 17 checks; independent review applied; finger taps in the web build",
+    "notChecked": "a real phone",
     "rulesAndSavesUnchanged": true
   }
 }

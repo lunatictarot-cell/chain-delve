@@ -1,11 +1,11 @@
 {
-  "version": "v89-web-qa-landscape-touch-fix",
-  "builtAt": "2026-11-12T06:52:28.957092+00:00",
-  "sourceCommit": "afbd3c89f36e3d97a072846a3ce342c20dc90ba7",
+  "version": "v90-web-qa-scroll-touch-fix",
+  "builtAt": "2026-11-12T07:58:06.866264+00:00",
+  "sourceCommit": "a6249b807facb8eb827e007610b36389affc9f29",
   "engine": "4.7.1.stable.official",
-  "pack": "game-v89-qa.pck",
-  "packBytes": 39200056,
-  "packSha256": "b9c707d4655fdeaaea2a2a799f5c4446fdfbce348b7c0a0ed331c3f22878d901",
+  "pack": "game-v90-qa.pck",
+  "packBytes": 39200264,
+  "packSha256": "c06d63e7856f468a18ed008da825889d0c84761a9dc204989f557ff5f1d701ba",
   "automaticRelicSkills": true,
   "relicSkillResourceCosts": false,
   "relicSkillCooldownOtherChains": 3,
@@ -221,7 +221,23 @@
       "countsHiddenScrollOverflow": true
     },
     "checkedAtRelease": "check.ps1 passed; older UI tests identical before and after on 43, the other 16 pass; independent review applied",
-    "knownNotFixed": "buttons inside the other scrolling popups are pressed twice per touch (older than V88)",
+    "rulesAndSavesUnchanged": true
+  },
+  "touch": {
+    "emulatedClickDroppedInScrollAreas": true,
+    "swipeNoLongerPressesTheButtonUnderIt": true,
+    "realTouchCrawl": {
+      "buttons": 753,
+      "pressedTwice": 0,
+      "notPressed": 0,
+      "windowSizes": [
+        "1280x720",
+        "390x844"
+      ]
+    },
+    "portraitScaleAndSidePanelStates": 266,
+    "checkedAtRelease": "check.ps1 passed; touch_scroll_tests 17 checks; independent review applied; finger taps in the web build",
+    "notChecked": "a real phone",
     "rulesAndSavesUnchanged": true
   }
 }
